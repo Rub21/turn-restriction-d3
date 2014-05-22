@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- éste archivo no cumple estandares ni buenas practicas, solo tiene lo indispensable para funcionar correctamente -->
+        <title>Introduccion basica a D3 - Cibergeek.com</title>
+    </head>
+    <!-- Añadiendo D3 al sitio  -->
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <body>
+        <div id="grafico"></div>
+
+        <script type="text/javascript">
+
+        //Datos que van a ser usados para generar el grafico
+            var datos = [5, 3, 7, 2, 5];
+
+        //Alto y ancho
+            var svgwidth = 500;
+            var svgheight = 400;
+
+        //Creacion el SVG para "dibujar"
+            var svg = d3.select("#grafico")
+                    .append("svg")
+                    .attr('height', svgheight)
+                    .attr('width', svgwidth);
+
+        //Creacion de las barras
+            svg.selectAll('rect')
+                    .data(datos)
+                    .enter()
+                    .append('rect')
+                    .attr('width', function() {
+                        return svgwidth / datos.length;
+                    }) //funciones anonimas
+                    .attr('x', function(d, i) {
+                        return i * svgwidth / datos.length;
+                    })
+                    .attr('y', function(d) {
+                        return svgheight - d * 10;
+                    })
+                    .attr('height', function(d) {
+                        return d * 10;
+                    });
+
+
+        </script>
+    </body>
+</html>

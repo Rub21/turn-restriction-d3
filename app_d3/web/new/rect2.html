@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+        <style>
+
+            /*.chart div {
+                font: 10px sans-serif;
+                background-color: steelblue;
+                text-align: right;
+                padding: 3px;
+                margin: 1px;
+                color: white;
+            }*/
+
+            .chart rect {
+                stroke: white;
+                fill: steelblue;
+            }
+        </style>
+    </head>
+    <body>
+        <p>Hello!</p>
+    </body>
+    <script >
+        var data = [4, 8, 15, 16, 23, 42];
+        /*   var chart = d3.select("body")
+         .append("div")
+         .attr("class", "chart");
+         chart.selectAll("div")
+         .data(data)
+         .enter().append("div")
+         .style("width", function(d) {
+         return d * 10 + "px";
+         })
+         .text(function(d) {
+         return d;
+         });*/
+
+        var chart = d3.select("body")
+                .append("svg:svg")
+                .attr("class", "chart")
+                .attr("width", 420)
+                .attr("height", 20 * data.length);
+
+
+        var x = d3.scale.linear()
+                .domain([0, d3.max(data)])
+                .range([0, 420]);
+
+
+        chart.selectAll("rect")
+                .data(data)
+                .enter().append("svg:rect")
+                .attr("y", function(d, i) {
+                    return i * 20;
+                })
+                .attr("width", x)
+                .attr("height", 20);
+
+
+    </script>
+</html>
