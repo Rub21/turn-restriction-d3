@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <script src="http://d3js.org/d3.v3.min.js"></script>
+
+    </head>
+    <body>
+
+        <script>
+
+            var dataArray = [20, 40, 50];
+            var camvas = d3.select("body")
+                    .append("svg")
+                    .attr("width", 500)
+                    .attr("height", 500);
+            
+            var bars= camvas.selectAll("rect")//seleccionan en blanco
+                    .data(dataArray)//agrega la data
+                    .enter()//encaja lso datos
+                    .append("rect")
+                    .attr("width",function(d){return d*10;})//regresa los datos para cada dato, se multiplica por 10 pa r aquel el nacho se mas grande
+                    .attr("height", 60)//asigna el alto de los rectangunos de cada uno
+                    .attr("y", function (d,i){return i*100;})//la variable d= a la data que contiene , mientras que la variable i al index o posicion del dato
+            
+            
+            
+
+
+
+        </script>
+    </body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <script src="http://d3js.org/d3.v3.min.js"></script>
+
+    </head>
+    <body>
+
+        <script>
+
+            var dataArray = [20, 40, 50, 60];
+
+            //
+            var width = 500;
+            var height = 500;
+
+            //esto sirev para que nuestros datos se acomoden en un escala. 
+            //por ejemplo si nuetros valor seria mas de width = 500;entonce ya no se motraria
+            //el svg ya lo restringe, por eso que se utliza el scale para que todos los datos puedena ser acomodados.
+
+            var widthScale = d3.scale.linear()
+                    .domain([0, 60])//ponemos el minimo y el maximo valor de nuetros datos
+                    .range([0, width]);//rango de valor el minimo 0 y el maximo sera el width 
+
+            //creamos color para las scalas que necesitamos
+            var color = d3.scale.linear()
+                    .domain([0, 60])
+                    .range(["red", "blue"]);
+
+            //para crear lo axis 
+            var axis = d3.svg.axis()
+                    .ticks(5) //esto es para que que solo apresca 5 elemtos en el axis , ejemplo 0,10,20,30,40,50, en este caso se obia el 0
+                    .scale(widthScale);
+
+
+            var camvas = d3.select("body")
+                    .append("svg")
+                    .attr("width", width)
+                    .attr("height", height)
+                    .append("g")// esto es para que todo los elemtos del svg se creen dentro de un elemento g
+                    .attr("transform", "translate(20,5)");// esto metodo aplica en el elemeto g, esto es para deplegar 5px de arriba y 20 px de la izquierda, funciona como un pading
+            //.call(axis);//con este sentencia llamaos al axis, para que no muestre en nuestro grafico
+
+            var bars = camvas.selectAll("rect")//seleccionan en blanco
+                    .data(dataArray)//agrega la data
+                    .enter()//encaja lso datos
+                    .append("rect")
+                    .attr("width", function(d) {
+                        return widthScale(d); //retorna en en una escala los valores
+                    })//regresa los datos para cada dato, se multiplica por 10 pa r aquel el nacho se mas grande
+                    .attr("height", 60)//asigna el alto de los rectangunos de cada uno
+                    //.attr("fill", "red")//para piintar los rectangulos
+                    .attr("fill", function(d) {
+                        return color(d);//regresamso el gradiente de colores dependiendo de los datos
+                    })
+                    .attr("y", function(d, i) {
+                        return i * 100;
+                    });//la variable d= a la data que contiene , mientras que la variable i al index o posicion del dato
+
+
+
+//creamos un grupo para le axis, es mejor crear otro grupo aunque se pude agrgar tbn en principasl deonde se seleccion en el body
+
+            camvas.append("g")
+                    .attr("transform", "translate(0,400)")//movemos 0 px a la isquierda y 400 px del top
+                    .call(axis);//llaammso a axis que hemos declarado antes
+
+
+
+        </script>
+    </body>
+</html>
