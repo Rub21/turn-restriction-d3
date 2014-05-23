@@ -1,7 +1,22 @@
-Name,Marks
-Sathesh,15
-Somnath,45
-Naresh,35
-Venkat,25
-Prabha,78
-Dinesh,36
+[
+{"name": "Paul Johnson", "edits":3308},
+{"name":"Mele Sax-Barnett", "edits":3091},
+{"name":"NE2", "edits":2613},
+{"name":"AM909", "edits":1948},
+{"name":"KristenK", "edits":816},
+{"name":"andrewpmk", "edits":752},
+{"name":"Grant Humphries", "edits":736},
+{"name":"ChrisZontine", "edits":638},
+{"name":"Zartbitter", "edits":486},
+{"name":"dchiles", "edits":480},
+{"name":"rickmastfan67", "edits":450},
+{"name":"Matt1993", "edits":396},
+{"name":"kre3d", "edits":338},
+{"name":"Gone", "edits":320},
+{"name":"mvexel", "edits":312},
+{"name":"Chris Lawrence", "edits":278},
+{"name":"nfgusedautoparts", "edits":269},
+{"name":"Gregory Arenius", "edits":218},
+{"name":"JaggedMind", "edits":177},
+{"name":"Your Village Maps", "edits":173}
+]

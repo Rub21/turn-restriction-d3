@@ -10,13 +10,13 @@
 
         <script>
 
-            var ediciones = [3308, 3091, 2613, 1948, 816, 752, 736, 638, 486, 480, 450, 396, 338, 320, 312, 278, 269, 218, 177, 173];
+
 
             var width = 960;
-            var height = 800;
+            var height = 960;
 
             var widthScale = d3.scale.linear()
-                    .domain([0, 3308])
+                    .domain([0, 3400])
                     .range([0, width]);
 
 
@@ -33,23 +33,50 @@
                     .append("g")
                     .attr("transform", "translate(20,20)");
 
-            var bars = camvas.selectAll("rect")
-                    .data(ediciones)
-                    .enter()
-                    .append("rect")
-                    .attr("width", function(d) {
-                        return d / 3.5;
-                    })//regresa los datos para cada dato, se multiplica por 10 pa r aquel el nacho se mas grande
-                    .attr("height", 20)//asigna el alto de los rectangunos de cada uno
-                    .attr("fill", "blue")
-                    .attr("y", function(d, i) {
-                        return i * 25;
-                    })//la variable d= a la data que contiene , mientras que la variable i al index o posicion del dato
+
+
+            d3.json("datausers.json", function(data) {
+
+                var bars = camvas.selectAll("rect")
+                        .data(data)
+                        .enter()
+                        .append("rect")
+                        .attr("width", function(d) {
+                            return d.edits / 3.5;
+                        })//regresa los datos para cada dato, se multiplica por 10 pa r aquel el nacho se mas grande
+                        .attr("height", 25)//asigna el alto de los rectangunos de cada uno
+
+                        .attr("y", function(d, i) {
+                            // console.log(d);
+                            return i * 30;
+                        })
+                        .attr("fill", "#58ACFA");//la variable d= a la data que contiene , mientras que la variable i al index o posicion del dato
+
+                camvas.selectAll("text")
+                        .data(data)
+                        .enter()
+                        .append("text")
+                        .attr("fill", "white")
+                        .attr("y", function(d, i) {
+                            return i * 30 + 15;
+                        })
+                        .text(function(d) {
+                            console.log(d);
+                            return d.edits;
+                        });
+
+
+
+
+            });
+
+
+
 
 
 
             camvas.append("g")
-                    .attr("transform", "translate(0,500)")//movemos 0 px a la isquierda y 400 px del top
+                    .attr("transform", "translate(0,600)")//movemos 0 px a la isquierda y 400 px del top
                     .call(axis);//llaammso a axis que hemos declarado antes
 
 

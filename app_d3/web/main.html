@@ -63,7 +63,7 @@
 
         d3.csv("data.csv", function(error, data) {
             var ageNames = d3.keys(data[0]).filter(function(key) {
-                return key !== "State";
+                return key !== "date";
             });
 
             data.forEach(function(d) {
@@ -73,7 +73,7 @@
             });
 
             x0.domain(data.map(function(d) {
-                return d.State;
+                return d.date;
             }));
             x1.domain(ageNames).rangeRoundBands([0, x0.rangeBand()]);
             y.domain([0, d3.max(data, function(d) {
@@ -109,11 +109,6 @@
                     .style("text-anchor", "end")
                     .text("Number of edits");
 
-
-
-
-
-
             /*Textos de los chart
              
              // bar labels
@@ -128,15 +123,15 @@
              .text(barLabel);
              */
 
-            var state = svg.selectAll(".state")
+            var date = svg.selectAll(".date")
                     .data(data)
                     .enter().append("g")
                     .attr("class", "g")
                     .attr("transform", function(d) {
-                        return "translate(" + x0(d.State) + ",0)";
+                        return "translate(" + x0(d.date) + ",0)";
                     });
 
-            state.selectAll("rect")
+            date.selectAll("rect")
                     .data(function(d) {
                         return d.ages;
                     })
