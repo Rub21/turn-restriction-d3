@@ -27,8 +27,8 @@
         var margin = {top: 20, right: 20, bottom: 70, left: 40},
         width = 600 - margin.left - margin.right,
                 height = 300 - margin.top - margin.bottom;
-        
-        
+
+
 
         // Parse the date / time
         var parseDate = d3.time.format("%Y-%m").parse;
@@ -37,13 +37,13 @@
 
         var y = d3.scale.linear().range([height, 0]);
 
- 
+
 
 
         var xAxis = d3.svg.axis()
                 .scale(x)
-                .orient("bottom")
-                .tickFormat(d3.time.format("%Y-%m"));
+                .orient("bottom");
+        //.tickFormat(d3.time.format("%Y-%m"));
 
         var yAxis = d3.svg.axis()
                 .scale(y)
@@ -98,11 +98,15 @@
                     .attr("x", function(d) {
                         return x(d.date);
                     })
-                    .attr("width", x.rangeBand())
+
+                    .attr("height", x.rangeBand()
+                           
+                            )
                     .attr("y", function(d) {
                         return y(d.value);
                     })
-                    .attr("height", function(d) {
+
+                    .attr("width", function(d) {
                         return height - y(d.value);
                     });
 

@@ -1,72 +1,132 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
-<style>
-    /*
-        .chart rect {
-            fill: steelblue;
-        }
-    
-        .chart text {
-            fill: white;
-            font: 10px sans-serif;
-            text-anchor: end;
-        }
-        
-    */
-
-    .axis {
-        font: 10px sans-serif;
-    }
-
-    .axis path,
-    .axis line {
-        fill: none;
-        stroke: #000;
-        shape-rendering: crispEdges;
-    }
-</style>
-<svg class="chart"></svg>
-<script src="http://d3js.org/d3.v3.min.js"></script>
-<script>
+<html>
+    <head>
 
 
-    var width = 960,
-            barHeight = 30;
 
-    var x = d3.scale.linear()
-            .range([0, width]);
+        <style>
+            /*
+                .chart rect {
+                    fill: steelblue;
+                }
+            
+                .chart text {
+                    fill: white;
+                    font: 10px sans-serif;
+                    text-anchor: end;
+                }
+                
+            */
 
-    var chart = d3.select(".chart")
-            .attr("width", width);
-
-    d3.tsv("users.tsv", type, function(error, data) {
-    x.domain([0, d3.max(data, function(d) {
-    return d.value;
-    })]);
-            chart.attr("height", barHeight * data.length);
-            var bar = chart.selectAll("g")
-            .data(data)
-            .enter().append("g")
-            .attr("transform", function(d, i) {
-            return "translate(0," + i * barHeight + ")";
-            });
-            bar.append("rect")
-            .attr("width", function(d) {
-            return x(d.value);
-            })
-            .attr("height", barHeight - 1);
-            bar.append("text")
-            .attr("x", function(d) {
-            return x(d.value) - 3;
-            })
-            .attr("y", barHeight / 2)
-            .attr("dy", ".35em")
-            .text(function(d) {
-            return d.value;
-       });
-            function type(d) {
-            d.value = + d.value; // coerce to number
-                    return d;
+            .axis {
+                font: 10px sans-serif;
             }
 
-</script>
+            .axis path,
+            .axis line {
+                fill: none;
+                stroke: #000;
+                shape-rendering: crispEdges;
+            }
+        </style>
+    </head>
+    <body>
+
+        <script src="http://d3js.org/d3.v3.min.js"></script>
+        <script>
+
+
+            var margin = {top: 20, right: 20, bottom: 70, left: 40};
+            var width = 960 - margin.left - margin.right;
+            var height = 700 - margin.top - margin.bottom;
+
+
+
+            var x = d3.scale.ordinal().rangeRoundBands([0, 3400], .05);
+
+            var y = d3.scale.linear();
+
+            var xAxis = d3.svg.axis()
+                    .scale(x);
+            //.orient("bottom");
+            //.tickFormat(d3.time.format("%Y-%m"));
+
+            var yAxis = d3.svg.axis()
+                    .scale(y)
+                    .orient("left")
+                    .ticks(10);
+
+            var svg = d3.select("body")
+                    .append("svg")
+                    .attr("width", width + margin.left + margin.right)
+                    .attr("height", height + margin.top + margin.bottom)
+                    .append("g")
+                    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+            d3.json("cursito/datausers.json", function(data) {
+                console.log(data);
+
+
+
+
+
+
+                svg.selectAll("bar")
+                        .data(data)
+                        .enter()
+                        .append("rect")
+                        .style("fill", "steelblue")
+                        //.attr("x", function(d) {
+                        //return x(d.date);
+                        //  })
+
+                        .attr("height", 25)
+                        .attr("y", function(d, i) {
+                            return i * 30;
+                        })
+
+                        .attr("width", function(d) {
+                            return d.edits / 3.5;
+                        });
+                svg.append("g")
+                        .attr("class", "x axis")
+                        .attr("transform", "translate(0," + height + ")")
+                        .call(xAxis)
+                        .selectAll("text")
+                        .style("text-anchor", "end")
+                        .attr("dx", "-.8em")
+                        .attr("dy", "-.55em")
+                        .attr("transform", "rotate(-90)");
+
+                svg.append("g")
+                        .attr("class", "y axis")
+                        .call(yAxis)
+                        .append("text")
+                        .attr("transform", "rotate(-90)")
+                        .attr("y", 6)
+                        .attr("dy", ".71em")
+                        .style("text-anchor", "end")
+                        .text("Ediciones");
+
+                svg.selectAll("text")
+                        .data(data)
+                        .enter()
+                        .append("text")
+                        .attr("fill", "white")
+                        .attr("y", function(d, i) {
+                            return i * 30 + 15;
+                        })
+                        .text(function(d) {
+                            return d.edits;
+                        });
+
+
+            });
+
+
+
+
+        </script>
+
+    </body>
+</html>
