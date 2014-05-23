@@ -4,7 +4,15 @@
     <head>
         <title>20 Top User</title>
         <script src="http://d3js.org/d3.v3.min.js"></script>
-
+        <style>
+            .title {
+                margin-top: 10px;
+                font-size: 20pt;
+            }
+            .axis{
+                color: #FACC2E;
+            }
+        </style>
     </head>
     <body>
 
@@ -109,6 +117,8 @@
                 camvas.append("text")
                         .attr("x", width / 2 - 75)
                         .attr("y", 700)
+                        .attr("class", "axis")
+                        .attr("fill", "#886A08")
                         .style("text-anchor", "middle")
                         .text("Edits");
 
@@ -117,15 +127,22 @@
                 //Create Title 
                 camvas.append("text")
                         .attr("x", width / 2 - 150)
-                        .attr("y", 0)
-                        .attr("font-size", "25px")
+                        .attr("y", 10)
+
+                        .attr("class", "title")
                         .style("text-anchor", "middle")
                         .text("20 Top User InEdit Turn Restriction");
 
-
+// Y label title
+                camvas.append("text")
+                        .attr("transform", "rotate(-90)")
+                        .attr("fill", "#886A08")
+                        .attr("y", -140)
+                        .attr("x", 0 - height / 2 + 150)
+                        .attr("class", "axis")
+                        .text("Users");
 
             });
-
 
 
 
