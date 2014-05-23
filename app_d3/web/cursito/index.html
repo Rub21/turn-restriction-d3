@@ -21,7 +21,6 @@
             var width = 960;
             var height = 960;
             var height_bart = 25;
-
             var widthScale = d3.scale.linear()
                     .domain([0, 3308])
                     .range([0, width - 150]);
@@ -29,24 +28,20 @@
             var x_axis = d3.svg.axis()
                     //.ticks(8)
                     .scale(widthScale);
+            var yScale = d3.scale.linear().range([height, 0]);
 
 
-            var yScale = d3.scale.linear();
             var yAxis = d3.svg.axis()
                     .scale(yScale)
                     .orient("left");
-
-
             var camvas = d3.select("body")
                     .append("svg")
                     .attr("width", width)
                     .attr("height", height)
                     .append("g")
                     .attr("transform", "translate(150,20)");
-
-
             d3.json("datausers.json", function(data) {
-
+//barras
                 camvas.selectAll("bar")
                         .data(data)
                         .enter()
@@ -61,7 +56,8 @@
                         })
                         .attr("fill", "#58ACFA")
                         .attr("transform", "translate(0,40)");
-
+                
+//texto valor de las barras
                 camvas.selectAll("text")
                         .data(data)
                         .enter()
@@ -82,8 +78,6 @@
                             return d.edits;
                         })
                         .attr("transform", "translate(0,40)");
-
-
 //usuarios
                 camvas.selectAll("text2")
                         .data(data)
@@ -99,20 +93,14 @@
                             return d.user;
                         })
                         .attr("transform", "translate(-130,55)");
-
-
-
-
                 camvas.append("g")
-                        .attr("transform", "translate(0,650)")//movemos 0 px a la isquierda y 400 px del top
-                        .call(x_axis);//llaammso a axis que hemos declarado antes
-
-                // camvas.append("g")
-                //         .attr("transform", "translate(0,0)")//movemos 0 px a la isquierda y 400 px del top
-                //         .call(yAxis);//llaammso a axis que hemos declarado antes
-
-
-//label xaxis
+                        .attr("transform", "translate(0,650)")
+                        .call(x_axis);
+//No Y axis
+                //camvas.append("g")
+                //  .attr("transform", "translate(0,0)")
+                //  .call(yAxis);
+//X label title
 
                 camvas.append("text")
                         .attr("x", width / 2 - 75)
@@ -121,10 +109,7 @@
                         .attr("fill", "#886A08")
                         .style("text-anchor", "middle")
                         .text("Edits");
-
-
-
-                //Create Title 
+//Create Title 
                 camvas.append("text")
                         .attr("x", width / 2 - 150)
                         .attr("y", 10)
@@ -132,7 +117,6 @@
                         .attr("class", "title")
                         .style("text-anchor", "middle")
                         .text("20 Top User InEdit Turn Restriction");
-
 // Y label title
                 camvas.append("text")
                         .attr("transform", "rotate(-90)")
@@ -141,7 +125,6 @@
                         .attr("x", 0 - height / 2 + 150)
                         .attr("class", "axis")
                         .text("Users");
-
             });
 
 
