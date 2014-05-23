@@ -2,7 +2,7 @@
 
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>20 Top User</title>
         <script src="http://d3js.org/d3.v3.min.js"></script>
 
     </head>
@@ -10,15 +10,13 @@
 
         <script>
 
-            var width = 1200;
+            var width = 960;
             var height = 960;
+            var height_bart = 25;
 
             var widthScale = d3.scale.linear()
                     .domain([0, 3308])
-                    .range([0, width]);
-
-
-
+                    .range([0, width - 150]);
             //para crear lo axis 
             var x_axis = d3.svg.axis()
                     //.ticks(8)
@@ -48,32 +46,37 @@
                         .attr("width", function(d) {
                             return widthScale(d.edits);
                         })
-                        .attr("height", 25)
+                        .attr("height", height_bart)
 
                         .attr("y", function(d, i) {
-                            return i * 30;
+                            return i * (height_bart + 5);
                         })
                         .attr("fill", "#58ACFA")
-                        .attr("transform", "translate(30,0)");
+                        .attr("transform", "translate(0,40)");
 
                 camvas.selectAll("text")
                         .data(data)
                         .enter()
                         .append("text")
                         .attr("fill", "white")
-                        .attr("y", function(d, i) {
-                            return i * 30 + 17;
+                        .attr("x", function(d) {
+                            if (d.edits > 1000) {
+                                return widthScale(d.edits) - 35;
+                            } else {
+                                return widthScale(d.edits) - 30;
+                            }
                         })
+                        .attr("y", function(d, i) {
+                            return i * 30 + 15;
+                        })
+                        // .attr("dy", ".35em")
                         .text(function(d) {
-                            console.log(d);
                             return d.edits;
                         })
-                        .attr("transform", function(d, i) {
-                            return "translate(" + d.edits / 3.5 + ",0)";
-                        });
+                        .attr("transform", "translate(0,40)");
 
 
-
+//usuarios
                 camvas.selectAll("text2")
                         .data(data)
                         .enter()
@@ -87,17 +90,37 @@
 
                             return d.user;
                         })
-                        .attr("transform", "translate(-130,20)");
+                        .attr("transform", "translate(-130,55)");
+
+
 
 
                 camvas.append("g")
-                        .attr("transform", "translate(0,600)")//movemos 0 px a la isquierda y 400 px del top
+                        .attr("transform", "translate(0,650)")//movemos 0 px a la isquierda y 400 px del top
                         .call(x_axis);//llaammso a axis que hemos declarado antes
 
-                camvas.append("g")
-                        .attr("transform", "translate(0,0)")//movemos 0 px a la isquierda y 400 px del top
-                        .call(yAxis);//llaammso a axis que hemos declarado antes
+                // camvas.append("g")
+                //         .attr("transform", "translate(0,0)")//movemos 0 px a la isquierda y 400 px del top
+                //         .call(yAxis);//llaammso a axis que hemos declarado antes
 
+
+//label xaxis
+
+                camvas.append("text")
+                        .attr("x", width / 2 - 75)
+                        .attr("y", 700)
+                        .style("text-anchor", "middle")
+                        .text("Edits");
+
+
+
+                //Create Title 
+                camvas.append("text")
+                        .attr("x", width / 2 - 150)
+                        .attr("y", 0)
+                        .attr("font-size", "25px")
+                        .style("text-anchor", "middle")
+                        .text("20 Top User InEdit Turn Restriction");
 
 
 
