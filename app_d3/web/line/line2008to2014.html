@@ -11,11 +11,17 @@
         fill:none;
     }
 
-    .axis path,
+    .axis path
+    {
+        fill: none;
+        stroke: #000000;
+        stroke-width:2;
+        shape-rendering: crispEdges;
+    }
     .axis line {
         fill: none;
-        stroke: grey;
-        stroke-width: 2;
+        //stroke: grey;
+        stroke-width:0.5;
         shape-rendering: crispEdges;
     }
 
@@ -26,6 +32,7 @@
     }
     .grid path {
         stroke-width: 0;
+
     }
 
     .area {
@@ -41,11 +48,12 @@
     <script src="http://d3js.org/d3.v3.min.js"></script>
 
     <script>
+
         var margin = {top: 30, right: 70, bottom: 30, left: 50};
         var width = 1200 - margin.left - margin.right;
         var height = 500 - margin.top - margin.bottom;
 
-        var parseDate = d3.time.format("%m-%Y").parse;
+        var parseDate = d3.time.format("%m/%Y").parse;
 
         var x = d3.time.scale()
                 .range([0, width]);
@@ -54,11 +62,11 @@
 
         var xAxis = d3.svg.axis().scale(x)
                 .orient("bottom")
-                .ticks(5);
+                .ticks(10);
 
         var yAxis = d3.svg.axis().scale(y)
                 .orient("right")//posicion par al lado derecho del label de axis y
-                .ticks(10);
+                .ticks(20);
 
         var area = d3.svg.area()//agregar area
                 //.interpolate("basis")
@@ -121,7 +129,7 @@
         //               .ticks(5);
         // }
 
-        d3.csv("data.csv", function(error, data) {
+        d3.csv("data_all.csv", function(error, data) {
             data.forEach(function(d) {
                 d.date = parseDate(d.date);
                 d.v1 = +d.v1;
@@ -151,6 +159,7 @@
 
             svg.append("path")
                     .attr("class", "line")
+                    .style("stroke-width", 1)
                     // .style("stroke-dasharray", ("3, 3")) // agrega interlineado en la linea
                     .attr("d", valueline(data));
 
@@ -158,6 +167,7 @@
             svg.append("path")          // Add the valueline2 path.
                     .attr("class", "line")
                     .style("stroke", "#55aaaa")
+                    .style("stroke-width", 1)
                     .attr("d", valueline2(data));
 
 
@@ -216,21 +226,41 @@
             //              );
 
 
-
+            svg.append("rect")
+                    .attr("transform", function() {
+                        // return "translate(" + (width - 10) + "," + y(data[data.length - 1].v1 - 5) + ")";//regresa el utimo elemento
+                        return "translate(" + (0 - margin.left + 150) + "," + (0 - margin.top + 100) + ")";//regresa el primer  elemeto
+                    })
+                    .attr("width", 10)
+                    .attr("height", 10)
+                    .attr("dy", ".35em")
+                    .attr("text-anchor", "start")
+                    .style("fill", "steelblue");
 
             svg.append("text")
                     .attr("transform", function() {
                         // return "translate(" + (width - 10) + "," + y(data[data.length - 1].v1 - 5) + ")";//regresa el utimo elemento
-                        return "translate(" + (0 - margin.left + 20) + "," + y(data[0].v1) + ")";//regresa el primer  elemeto
-
+                        return "translate(" + (0 - margin.left + 165) + "," + (0 - margin.top + 105) + ")";//regresa el primer  elemeto
                     })
                     .attr("dy", ".35em")
                     .attr("text-anchor", "start")
                     .style("fill", "steelblue")
                     .text("v = 1");
 
+            svg.append("rect")
+                    .attr("transform", function() {
+                        // return "translate(" + (width - 10) + "," + y(data[data.length - 1].v1 - 5) + ")";//regresa el utimo elemento
+                        return "translate(" + (0 - margin.left + 150) + "," + (0 - margin.top + 115) + ")";//regresa el primer  elemeto
+                    })
+                    .attr("width", 10)
+                    .attr("height", 10)
+                    .attr("dy", ".35em")
+                    .attr("text-anchor", "start")
+                    .style("fill", "#55aaaa");
+
             svg.append("text")
-                    .attr("transform", "translate(" + (0 - margin.left + 20) + "," + y(data[0].vx) + ")")//regresa el utimo elemeto
+                    //.attr("transform", "translate(" + (0 - margin.left + 20) + "," + y(data[0].vx) + ")")//regresa el utimo elemeto
+                    .attr("transform", "translate(" + (0 - margin.left + 165) + "," + (0 - margin.top + 120) + ")")
                     .attr("dy", ".35em")
                     .attr("text-anchor", "start")
                     .style("fill", "#55aaaa")

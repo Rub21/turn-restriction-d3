@@ -11,11 +11,17 @@
         fill:none;
     }
 
-    .axis path,
+    .axis path
+    {
+        fill: none;
+        stroke: #000000;
+        stroke-width:2;
+        shape-rendering: crispEdges;
+    }
     .axis line {
         fill: none;
-        stroke: grey;
-        stroke-width: 2;
+        //stroke: grey;
+        stroke-width:0.5;
         shape-rendering: crispEdges;
     }
 
@@ -45,7 +51,7 @@
         var width = 1200 - margin.left - margin.right;
         var height = 500 - margin.top - margin.bottom;
 
-        var parseDate = d3.time.format("%m-%Y").parse;
+        var parseDate = d3.time.format("%m/%Y").parse;
 
         var x = d3.time.scale()
                 .range([0, width]);
@@ -151,6 +157,7 @@
 
             svg.append("path")
                     .attr("class", "line")
+                    .style("stroke-width", 1)
                     // .style("stroke-dasharray", ("3, 3")) // agrega interlineado en la linea
                     .attr("d", valueline(data));
 
@@ -158,6 +165,7 @@
             svg.append("path")          // Add the valueline2 path.
                     .attr("class", "line")
                     .style("stroke", "#55aaaa")
+                    .style("stroke-width", 1)
                     .attr("d", valueline2(data));
 
 
@@ -227,6 +235,7 @@
                     .attr("dy", ".35em")
                     .attr("text-anchor", "start")
                     .style("fill", "steelblue")
+                    .style("font-weight", "bold")
                     .text("v = 1");
 
             svg.append("text")
@@ -234,6 +243,7 @@
                     .attr("dy", ".35em")
                     .attr("text-anchor", "start")
                     .style("fill", "#55aaaa")
+                    .style("font-weight", "bold")
                     .text("v > 1");
         });
 
