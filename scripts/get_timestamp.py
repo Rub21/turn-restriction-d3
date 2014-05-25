@@ -22,7 +22,7 @@ print ts
 day = '1'
 s_year = ''
 s_month = ''
-for year in xrange(01, 14+1):
+for year in xrange(1, 14+1):
 	for month in xrange(1,12+1):
 		#print "%s/%d/20%d" %(day,month,year)
 		if month < 10:
@@ -30,7 +30,12 @@ for year in xrange(01, 14+1):
 		else:
 			s_month = "%s" %(month)
 
-		s_date = "0%s/%s/20%d" %(day,s_month,year)
+		if year < 10:
+			s_year = "0%s" %(year)			
+		else:
+			s_year = "%s" %(year)
+
+		s_date = "0%s/%s/20%s" %(day,s_month,s_year)
 
 		print s_date
 		ts_date = time.mktime(datetime.strptime(s_date, "%d/%m/%Y").timetuple())

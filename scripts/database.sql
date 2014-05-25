@@ -67,10 +67,8 @@ $$ LANGUAGE plpgsql;
 -- consulta
 SELECT substring(s_date::text,4,9),get_version1(id) as added , get_versionx(id) as edited  FROM fecha;
 
-select * from relation
+-- consulta por usuarios
 select osm_user, count(version) as num_edit from relation GROUP BY osm_user ORDER BY  num_edit desc limit 20
-
-
 select count(*) from relation
 
 
