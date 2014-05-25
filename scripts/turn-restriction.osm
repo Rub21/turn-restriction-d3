@@ -1,0 +1,1701 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='true' generator='JOSM'>
+  <node id='65281429' timestamp='2014-01-09T04:48:05Z' uid='481533' user='dbaron' visible='true' version='7' changeset='19894281' lat='37.785216' lon='-122.3940389'>
+    <tag k='highway' v='traffic_signals' />
+  </node>
+  <node id='65284511' timestamp='2014-01-09T04:48:04Z' uid='481533' user='dbaron' visible='true' version='5' changeset='19894281' lat='37.7860778' lon='-122.3929495'>
+    <tag k='highway' v='traffic_signals' />
+  </node>
+  <node id='65285239' timestamp='2011-05-02T21:22:37Z' uid='14293' user='KindredCoda' visible='true' version='6' changeset='8034497' lat='37.7867734' lon='-122.3920702'>
+    <tag k='highway' v='traffic_signals' />
+    <tag k='traffic_signals:sound' v='yes' />
+    <tag k='turn_restrictions' v='no' />
+  </node>
+  <node id='65290178' timestamp='2012-04-20T06:19:14Z' uid='14293' user='KindredCoda' visible='true' version='8' changeset='11360599' lat='37.7870801' lon='-122.3877375'>
+    <tag k='highway' v='traffic_signals' />
+    <tag k='turn_restrictions' v='no' />
+  </node>
+  <node id='65290185' timestamp='2012-08-08T19:27:20Z' uid='573196' user='nithin_telenav' visible='true' version='7' changeset='12660907' lat='37.7862336' lon='-122.3896513'>
+    <tag k='highway' v='traffic_signals' />
+    <tag k='traffic_signals:sound' v='yes' />
+    <tag k='turn_restrictions' v='no' />
+  </node>
+  <node id='65290189' timestamp='2012-09-03T06:41:11Z' uid='207745' user='NE2' visible='true' version='5' changeset='12963218' lat='37.7856059' lon='-122.3905489' />
+  <node id='65290200' timestamp='2011-02-11T19:51:52Z' uid='116029' user='Gregory Arenius' visible='true' version='5' changeset='7258457' lat='37.7847646' lon='-122.3914267' />
+  <node id='65290204' timestamp='2011-02-11T19:51:47Z' uid='116029' user='Gregory Arenius' visible='true' version='4' changeset='7258457' lat='37.7846023' lon='-122.3916139' />
+  <node id='65290207' timestamp='2012-01-27T06:49:44Z' uid='236172' user='saikofish' visible='true' version='4' changeset='10509586' lat='37.7842103' lon='-122.3921219' />
+  <node id='65290210' timestamp='2013-12-11T20:01:19Z' uid='597941' user='JeffM8' visible='true' version='5' changeset='19401645' lat='37.7835846' lon='-122.392961' />
+  <node id='65290211' timestamp='2011-05-02T22:58:33Z' uid='14293' user='KindredCoda' visible='true' version='9' changeset='8035462' lat='37.7830916' lon='-122.39362'>
+    <tag k='highway' v='traffic_signals' />
+  </node>
+  <node id='65292818' timestamp='2012-02-01T06:59:20Z' uid='236172' user='saikofish' visible='true' version='6' changeset='10556267' lat='37.7889831' lon='-122.3985667'>
+    <tag k='turn_restrictions' v='no' />
+  </node>
+  <node id='65298637' timestamp='2012-08-08T19:27:20Z' uid='573196' user='nithin_telenav' visible='true' version='5' changeset='12660907' lat='37.786128' lon='-122.3895186' />
+  <node id='65300097' timestamp='2011-05-03T00:44:15Z' uid='14293' user='KindredCoda' visible='true' version='7' changeset='8035660' lat='37.7862613' lon='-122.4020414'>
+    <tag k='highway' v='traffic_signals' />
+  </node>
+  <node id='65300105' timestamp='2011-05-02T21:30:24Z' uid='14293' user='KindredCoda' visible='true' version='5' changeset='8034497' lat='37.7866798' lon='-122.4025729' />
+  <node id='65300107' timestamp='2012-11-28T04:09:55Z' uid='481533' user='dbaron' visible='true' version='6' changeset='14068464' lat='37.7870311' lon='-122.403019'>
+    <tag k='highway' v='traffic_signals' />
+  </node>
+  <node id='65303488' timestamp='2011-06-01T23:15:46Z' uid='381909' user='JessAk71' visible='true' version='8' changeset='8315158' lat='37.7925427' lon='-122.3940776'>
+    <tag k='highway' v='traffic_signals' />
+    <tag k='turn_restrictions' v='no' />
+  </node>
+  <node id='65303506' timestamp='2011-05-02T21:22:39Z' uid='14293' user='KindredCoda' visible='true' version='9' changeset='8034497' lat='37.7888522' lon='-122.3894308'>
+    <tag k='highway' v='traffic_signals' />
+    <tag k='source' v='Yahoo' />
+    <tag k='turn_restrictions' v='no' />
+  </node>
+  <node id='65303525' timestamp='2010-12-08T23:00:24Z' uid='116029' user='Gregory Arenius' visible='true' version='5' changeset='6590676' lat='37.7902607' lon='-122.4005431'>
+    <tag k='highway' v='traffic_signals' />
+  </node>
+  <node id='65303529' timestamp='2011-03-16T23:30:38Z' uid='20587' user='balrog-kun' visible='true' version='5' changeset='7580979' lat='37.790039' lon='-122.40219'>
+    <tag k='highway' v='traffic_signals' />
+    <tag k='source' v='survey' />
+    <tag k='traffic_signals:sound' v='yes' />
+  </node>
+  <node id='65303531' timestamp='2012-02-20T08:03:38Z' uid='236172' user='saikofish' visible='true' version='4' changeset='10737960' lat='37.7899951' lon='-122.402552' />
+  <node id='65303533' timestamp='2011-05-28T00:24:07Z' uid='28775' user='StellanL' visible='true' version='6' changeset='8267850' lat='37.789826' lon='-122.4038661'>
+    <tag k='highway' v='traffic_signals' />
+    <tag k='source' v='survey' />
+    <tag k='traffic_signals:sound' v='yes' />
+  </node>
+  <node id='65304021' timestamp='2012-04-13T06:20:45Z' uid='236172' user='saikofish' visible='true' version='5' changeset='11283934' lat='37.790062' lon='-122.3979275' />
+  <node id='65306782' timestamp='2012-04-20T06:19:10Z' uid='14293' user='KindredCoda' visible='true' version='9' changeset='11360599' lat='37.7925337' lon='-122.390976'>
+    <tag k='highway' v='traffic_signals' />
+    <tag k='turn_restrictions' v='no' />
+  </node>
+  <node id='65306787' timestamp='2011-05-03T00:44:15Z' uid='14293' user='KindredCoda' visible='true' version='8' changeset='8035660' lat='37.7906148' lon='-122.3934057'>
+    <tag k='highway' v='traffic_signals' />
+  </node>
+  <node id='65306789' timestamp='2011-05-03T00:44:15Z' uid='14293' user='KindredCoda' visible='true' version='8' changeset='8035660' lat='37.7899209' lon='-122.3942772'>
+    <tag k='highway' v='traffic_signals' />
+    <tag k='turn_restrictions' v='no' />
+  </node>
+  <node id='65306793' timestamp='2011-02-11T19:51:45Z' uid='116029' user='Gregory Arenius' visible='true' version='7' changeset='7258457' lat='37.7892316' lon='-122.3951477'>
+    <tag k='highway' v='traffic_signals' />
+    <tag k='turn_restrictions' v='no' />
+  </node>
+  <node id='65306797' timestamp='2011-05-02T22:58:31Z' uid='14293' user='KindredCoda' visible='true' version='9' changeset='8035462' lat='37.786773' lon='-122.3982588'>
+    <tag k='highway' v='traffic_signals' />
+    <tag k='traffic_signals:sound' v='yes' />
+    <tag k='turn_restrictions' v='no' />
+  </node>
+  <node id='65306800' timestamp='2014-01-24T02:52:12Z' uid='481533' user='dbaron' visible='true' version='6' changeset='20170747' lat='37.7862063' lon='-122.3989843'>
+    <tag k='highway' v='traffic_signals' />
+  </node>
+  <node id='65306967' timestamp='2012-04-13T06:20:46Z' uid='236172' user='saikofish' visible='true' version='6' changeset='11283934' lat='37.7902388' lon='-122.3981484' />
+  <node id='65306991' timestamp='2011-05-02T22:58:31Z' uid='14293' user='KindredCoda' visible='true' version='5' changeset='8035462' lat='37.7884407' lon='-122.4003456' />
+  <node id='65306993' timestamp='2009-08-10T21:55:52Z' uid='147510' user='woodpeck_fixbot' visible='true' version='3' changeset='2102778' lat='37.78789' lon='-122.401043' />
+  <node id='65308413' timestamp='2010-12-08T21:16:05Z' uid='116029' user='Gregory Arenius' visible='true' version='6' changeset='6589460' lat='37.7911514' lon='-122.395815'>
+    <tag k='highway' v='traffic_signals' />
+    <tag k='turn_restrictions' v='no' />
+  </node>
+  <node id='65308416' timestamp='2014-01-16T04:27:22Z' uid='481533' user='dbaron' visible='true' version='8' changeset='20027187' lat='37.7886919' lon='-122.392739'>
+    <tag k='highway' v='traffic_signals' />
+  </node>
+  <node id='65308418' timestamp='2012-08-08T19:27:20Z' uid='573196' user='nithin_telenav' visible='true' version='4' changeset='12660907' lat='37.7878017' lon='-122.3916209' />
+  <node id='65308428' timestamp='2009-08-10T21:56:12Z' uid='147510' user='woodpeck_fixbot' visible='true' version='7' changeset='2102778' lat='37.7853315' lon='-122.3885182'>
+    <tag k='highway' v='turning_circle' />
+  </node>
+  <node id='65314146' timestamp='2011-05-28T00:24:07Z' uid='28775' user='StellanL' visible='true' version='5' changeset='8267850' lat='37.7888918' lon='-122.4036784'>
+    <tag k='highway' v='traffic_signals' />
+    <tag k='source' v='survey' />
+  </node>
+  <node id='65317028' timestamp='2011-05-02T22:58:31Z' uid='14293' user='KindredCoda' visible='true' version='6' changeset='8035462' lat='37.7888146' lon='-122.4008125' />
+  <node id='65317030' timestamp='2012-02-01T06:59:20Z' uid='236172' user='saikofish' visible='true' version='7' changeset='10556267' lat='37.7880097' lon='-122.3998053'>
+    <tag k='highway' v='traffic_signals' />
+  </node>
+  <node id='65317032' timestamp='2012-10-27T23:11:21Z' uid='28775' user='StellanL' visible='true' version='6' changeset='13655374' lat='37.7875741' lon='-122.399262' />
+  <node id='65317035' timestamp='2011-05-02T22:58:32Z' uid='14293' user='KindredCoda' visible='true' version='5' changeset='8035462' lat='37.7872001' lon='-122.3987937' />
+  <node id='65317037' timestamp='2011-05-02T22:58:32Z' uid='14293' user='KindredCoda' visible='true' version='6' changeset='8035462' lat='37.7863345' lon='-122.3977097'>
+    <tag k='turn_restrictions' v='no' />
+  </node>
+  <node id='65317040' timestamp='2011-05-02T22:58:32Z' uid='14293' user='KindredCoda' visible='true' version='6' changeset='8035462' lat='37.7859594' lon='-122.39724'>
+    <tag k='turn_restrictions' v='no' />
+  </node>
+  <node id='65317042' timestamp='2011-05-02T22:58:32Z' uid='14293' user='KindredCoda' visible='true' version='9' changeset='8035462' lat='37.7855436' lon='-122.3967193'>
+    <tag k='highway' v='traffic_signals' />
+    <tag k='traffic_signals:sound' v='yes' />
+    <tag k='turn_restrictions' v='no' />
+  </node>
+  <node id='65317045' timestamp='2011-05-02T22:58:32Z' uid='14293' user='KindredCoda' visible='true' version='8' changeset='8035462' lat='37.7843129' lon='-122.3951781'>
+    <tag k='highway' v='traffic_signals' />
+    <tag k='traffic_signals:sound' v='yes' />
+  </node>
+  <node id='65317048' timestamp='2011-05-02T22:58:32Z' uid='14293' user='KindredCoda' visible='true' version='7' changeset='8035462' lat='37.7835224' lon='-122.3941697'>
+    <tag k='turn_restrictions' v='no' />
+  </node>
+  <node id='65317511' timestamp='2012-04-20T06:19:11Z' uid='14293' user='KindredCoda' visible='true' version='10' changeset='11360599' lat='37.7909122' lon='-122.3899341'>
+    <tag k='highway' v='traffic_signals' />
+  </node>
+  <node id='65317515' timestamp='2014-01-16T04:27:22Z' uid='481533' user='dbaron' visible='true' version='7' changeset='20027187' lat='37.7893859' lon='-122.3918575'>
+    <tag k='highway' v='traffic_signals' />
+  </node>
+  <node id='65317519' timestamp='2011-04-30T00:44:08Z' uid='14293' user='KindredCoda' visible='true' version='9' changeset='8007967' lat='37.788323' lon='-122.3932091' />
+  <node id='65317521' timestamp='2011-04-30T00:44:08Z' uid='14293' user='KindredCoda' visible='true' version='10' changeset='8007967' lat='37.7880031' lon='-122.3936166'>
+    <tag k='highway' v='traffic_signals' />
+    <tag k='traffic_signals:sound' v='yes' />
+  </node>
+  <node id='65317703' timestamp='2012-04-20T06:19:12Z' uid='14293' user='KindredCoda' visible='true' version='10' changeset='11360599' lat='37.7896405' lon='-122.3884117'>
+    <tag k='highway' v='traffic_signals' />
+  </node>
+  <node id='65317709' timestamp='2011-05-02T21:22:36Z' uid='14293' user='KindredCoda' visible='true' version='7' changeset='8034497' lat='37.7881515' lon='-122.390321'>
+    <tag k='highway' v='traffic_signals' />
+    <tag k='source' v='Yahoo' />
+  </node>
+  <node id='65318323' timestamp='2012-04-13T06:20:46Z' uid='236172' user='saikofish' visible='true' version='6' changeset='11283934' lat='37.7905816' lon='-122.3985765' />
+  <node id='65318326' timestamp='2009-12-30T01:23:07Z' uid='202256' user='Telecas' visible='true' version='4' changeset='3486270' lat='37.788269' lon='-122.40151' />
+  <node id='65319582' timestamp='2011-02-11T19:51:55Z' uid='116029' user='Gregory Arenius' visible='true' version='5' changeset='7258457' lat='37.7893403' lon='-122.3970256'>
+    <tag k='turn_restrictions' v='no' />
+  </node>
+  <node id='65319587' timestamp='2009-08-10T21:59:16Z' uid='147510' user='woodpeck_fixbot' visible='true' version='3' changeset='2102778' lat='37.787011' lon='-122.399975' />
+  <node id='65319906' timestamp='2010-01-13T05:59:54Z' uid='24452' user='Speight' visible='true' version='4' changeset='3607846' lat='37.7912824' lon='-122.3994515' />
+  <node id='65319908' timestamp='2010-12-08T23:00:10Z' uid='116029' user='Gregory Arenius' visible='true' version='4' changeset='6590676' lat='37.791327' lon='-122.399572'>
+    <tag k='highway' v='traffic_signals' />
+  </node>
+  <node id='65319911' timestamp='2012-03-06T00:53:42Z' uid='116029' user='Gregory Arenius' visible='true' version='4' changeset='10886214' lat='37.791177' lon='-122.400744'>
+    <tag k='highway' v='traffic_signals' />
+  </node>
+  <node id='65322605' timestamp='2012-02-01T06:59:20Z' uid='236172' user='saikofish' visible='true' version='6' changeset='10556267' lat='37.7891786' lon='-122.398318'>
+    <tag k='turn_restrictions' v='no' />
+  </node>
+  <node id='65325220' timestamp='2011-05-15T18:59:52Z' uid='28775' user='StellanL' visible='true' version='4' changeset='8155559' lat='37.7896714' lon='-122.3957028' />
+  <node id='65325227' timestamp='2009-08-10T22:00:50Z' uid='147510' user='woodpeck_fixbot' visible='true' version='3' changeset='2102778' lat='37.786634' lon='-122.399502' />
+  <node id='65328690' timestamp='2012-01-07T03:32:49Z' uid='28775' user='StellanL' visible='true' version='9' changeset='10318132' lat='37.7877666' lon='-122.4050454'>
+    <tag k='highway' v='traffic_signals' />
+    <tag k='turn_restrictions' v='no' />
+  </node>
+  <node id='65329978' timestamp='2014-01-17T14:24:51Z' uid='1240849' user='ediyes' visible='true' version='4' changeset='20051360' lat='37.7877045' lon='-122.4008211' />
+  <node id='65329980' timestamp='2011-05-03T00:44:18Z' uid='14293' user='KindredCoda' visible='true' version='6' changeset='8035660' lat='37.7874553' lon='-122.4005089'>
+    <tag k='highway' v='traffic_signals' />
+    <tag k='traffic_signals:sound' v='yes' />
+  </node>
+  <node id='65330567' timestamp='2012-04-20T06:19:13Z' uid='14293' user='KindredCoda' visible='true' version='7' changeset='11360599' lat='37.7895349' lon='-122.3883212' />
+  <node id='65330569' timestamp='2012-04-20T06:19:13Z' uid='14293' user='KindredCoda' visible='true' version='6' changeset='11360599' lat='37.7891552' lon='-122.388079' />
+  <node id='65330572' timestamp='2012-04-20T06:19:13Z' uid='14293' user='KindredCoda' visible='true' version='7' changeset='11360599' lat='37.7889931' lon='-122.3880102' />
+  <node id='65330575' timestamp='2012-04-20T06:19:13Z' uid='14293' user='KindredCoda' visible='true' version='6' changeset='11360599' lat='37.7888385' lon='-122.3879601' />
+  <node id='65330577' timestamp='2012-04-20T06:19:14Z' uid='14293' user='KindredCoda' visible='true' version='8' changeset='11360599' lat='37.7882625' lon='-122.3878076' />
+  <node id='65330580' timestamp='2012-04-20T06:19:14Z' uid='14293' user='KindredCoda' visible='true' version='7' changeset='11360599' lat='37.7879337' lon='-122.3877417' />
+  <node id='65330584' timestamp='2012-04-20T06:19:14Z' uid='14293' user='KindredCoda' visible='true' version='7' changeset='11360599' lat='37.7874692' lon='-122.3877109' />
+  <node id='65330654' timestamp='2012-04-20T06:19:14Z' uid='14293' user='KindredCoda' visible='true' version='8' changeset='11360599' lat='37.7919428' lon='-122.3905945' />
+  <node id='65334111' timestamp='2011-05-28T00:24:06Z' uid='28775' user='StellanL' visible='true' version='8' changeset='8267850' lat='37.787963' lon='-122.4034917'>
+    <tag k='highway' v='traffic_signals' />
+    <tag k='turn_restrictions' v='no' />
+  </node>
+  <node id='65334114' timestamp='2012-04-08T23:06:50Z' uid='28775' user='StellanL' visible='true' version='7' changeset='11231953' lat='37.7875757' lon='-122.4065946'>
+    <tag k='highway' v='traffic_signals' />
+    <tag k='turn_restrictions' v='no' />
+  </node>
+  <node id='65334510' timestamp='2012-04-13T06:20:46Z' uid='236172' user='saikofish' visible='true' version='8' changeset='11283934' lat='37.789771' lon='-122.397564'>
+    <tag k='highway' v='traffic_signals' />
+    <tag k='traffic_signals:sound' v='yes' />
+  </node>
+  <node id='65335575' timestamp='2012-01-27T06:49:44Z' uid='236172' user='saikofish' visible='true' version='4' changeset='10509586' lat='37.7838337' lon='-122.3916126' />
+  <node id='65336470' timestamp='2012-02-04T15:52:56Z' uid='236172' user='saikofish' visible='true' version='6' changeset='10585556' lat='37.7912031' lon='-122.3996085' />
+  <node id='65336938' timestamp='2010-06-04T16:01:43Z' uid='14293' user='KindredCoda' visible='true' version='5' changeset='4902230' lat='37.7954388' lon='-122.3946495' />
+  <node id='65337016' timestamp='2011-02-11T19:51:46Z' uid='116029' user='Gregory Arenius' visible='true' version='5' changeset='7258457' lat='37.7878959' lon='-122.3926673' />
+  <node id='65348742' timestamp='2012-02-10T16:30:42Z' uid='236172' user='saikofish' visible='true' version='5' changeset='10644948' lat='37.7884348' lon='-122.4035865' />
+  <node id='65351772' timestamp='2011-05-03T00:44:17Z' uid='14293' user='KindredCoda' visible='true' version='8' changeset='8035660' lat='37.7844896' lon='-122.4042562'>
+    <tag k='highway' v='traffic_signals' />
+    <tag k='traffic_signals:sound' v='yes' />
+    <tag k='turn_restrictions' v='no' />
+  </node>
+  <node id='65353195' timestamp='2012-02-01T06:59:21Z' uid='236172' user='saikofish' visible='true' version='6' changeset='10556267' lat='37.7883576' lon='-122.3993626'>
+    <tag k='turn_restrictions' v='no' />
+  </node>
+  <node id='65363148' timestamp='2011-05-03T00:44:19Z' uid='14293' user='KindredCoda' visible='true' version='8' changeset='8035660' lat='37.7938461' lon='-122.3924402'>
+    <tag k='highway' v='traffic_signals' />
+  </node>
+  <node id='65363153' timestamp='2012-04-13T06:20:46Z' uid='236172' user='saikofish' visible='true' version='6' changeset='11283934' lat='37.7904618' lon='-122.3966889'>
+    <tag k='highway' v='traffic_signals' />
+    <tag k='traffic_signals:sound' v='yes' />
+  </node>
+  <node id='65367869' timestamp='2012-04-20T09:04:29Z' uid='14293' user='KindredCoda' visible='true' version='7' changeset='11361726' lat='37.7944098' lon='-122.3949529' />
+  <node id='65372273' timestamp='2012-01-27T06:49:44Z' uid='236172' user='saikofish' visible='true' version='4' changeset='10509586' lat='37.7841907' lon='-122.3920675' />
+  <node id='65373240' timestamp='2010-06-04T16:02:18Z' uid='14293' user='KindredCoda' visible='true' version='4' changeset='4902230' lat='37.796081' lon='-122.39508' />
+  <node id='65373331' timestamp='2012-04-20T06:19:11Z' uid='14293' user='KindredCoda' visible='true' version='5' changeset='11360599' lat='37.7922105' lon='-122.3907358' />
+  <node id='65373369' timestamp='2009-08-10T22:13:11Z' uid='147510' user='woodpeck_fixbot' visible='true' version='3' changeset='2102778' lat='37.797201' lon='-122.39604' />
+  <node id='65373457' timestamp='2010-06-04T01:13:09Z' uid='14293' user='KindredCoda' visible='true' version='4' changeset='4897380' lat='37.7927664' lon='-122.391192' />
+  <node id='65373464' timestamp='2010-06-04T16:13:32Z' uid='14293' user='KindredCoda' visible='true' version='4' changeset='4902230' lat='37.7939657' lon='-122.3928645' />
+  <node id='65373465' timestamp='2010-06-04T16:01:18Z' uid='14293' user='KindredCoda' visible='true' version='7' changeset='4902230' lat='37.7946005' lon='-122.3938354' />
+  <node id='65373467' timestamp='2010-06-04T16:01:17Z' uid='14293' user='KindredCoda' visible='true' version='4' changeset='4902230' lat='37.7948157' lon='-122.3941211' />
+  <node id='65373469' timestamp='2012-12-16T12:14:21Z' uid='933797' user='oba510' visible='true' version='8' changeset='14292053' lat='37.7949248' lon='-122.3942396'>
+    <tag k='crossing' v='traffic_signals' />
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='65373471' timestamp='2010-06-04T16:01:44Z' uid='14293' user='KindredCoda' visible='true' version='4' changeset='4902230' lat='37.7951845' lon='-122.3944698' />
+  <node id='65373473' timestamp='2010-06-04T16:01:43Z' uid='14293' user='KindredCoda' visible='true' version='4' changeset='4902230' lat='37.7953042' lon='-122.3945596' />
+  <node id='65373475' timestamp='2010-06-04T16:02:19Z' uid='14293' user='KindredCoda' visible='true' version='4' changeset='4902230' lat='37.7958267' lon='-122.3948815' />
+  <node id='258756405' timestamp='2013-12-30T20:39:18Z' uid='119881' user='Clorox' visible='true' version='28' changeset='19721987' lat='37.7932253' lon='-122.3964255'>
+    <tag k='highway' v='traffic_signals' />
+    <tag k='traffic_signals:sound' v='yes' />
+    <tag k='turn_restrictions' v='yes' />
+  </node>
+  <node id='258965613' timestamp='2011-05-03T00:44:14Z' uid='14293' user='KindredCoda' visible='true' version='14' changeset='8035660' lat='37.7937253' lon='-122.3925892'>
+    <tag k='highway' v='traffic_signals' />
+  </node>
+  <node id='258965616' timestamp='2010-12-06T00:16:00Z' uid='116029' user='Gregory Arenius' visible='true' version='8' changeset='6558545' lat='37.7966342' lon='-122.395556'>
+    <tag k='highway' v='traffic_signals' />
+    <tag k='traffic_signals:sound' v='yes' />
+    <tag k='turn_restrictions' v='no' />
+  </node>
+  <node id='258965618' timestamp='2010-12-02T16:01:34Z' uid='116029' user='Gregory Arenius' visible='true' version='18' changeset='6516180' lat='37.7991637' lon='-122.3977719'>
+    <tag k='highway' v='traffic_signals' />
+    <tag k='turn_restrictions' v='no' />
+  </node>
+  <node id='260193609' timestamp='2013-12-12T16:30:25Z' uid='28775' user='StellanL' visible='true' version='16' changeset='19416434' lat='37.7923564' lon='-122.3912005'>
+    <tag k='highway' v='traffic_signals' />
+    <tag k='turn_restrictions' v='no' />
+  </node>
+  <node id='260193610' timestamp='2012-04-20T06:19:13Z' uid='14293' user='KindredCoda' visible='true' version='8' changeset='11360599' lat='37.7915345' lon='-122.390907' />
+  <node id='260193611' timestamp='2012-04-20T06:19:13Z' uid='14293' user='KindredCoda' visible='true' version='8' changeset='11360599' lat='37.791149' lon='-122.390627' />
+  <node id='260193612' timestamp='2012-04-20T06:19:13Z' uid='14293' user='KindredCoda' visible='true' version='11' changeset='11360599' lat='37.7907372' lon='-122.390154'>
+    <tag k='highway' v='traffic_signals' />
+  </node>
+  <node id='260193613' timestamp='2012-04-20T06:19:13Z' uid='14293' user='KindredCoda' visible='true' version='19' changeset='11360599' lat='37.7894889' lon='-122.3886289'>
+    <tag k='highway' v='traffic_signals' />
+  </node>
+  <node id='268012546' timestamp='2011-05-15T19:56:04Z' uid='28775' user='StellanL' visible='true' version='8' changeset='8156270' lat='37.7849225' lon='-122.3944148' />
+  <node id='277632380' timestamp='2009-02-27T06:38:48Z' uid='28775' user='StellanL' visible='true' version='4' changeset='681395' lat='37.7988831' lon='-122.3975319' />
+  <node id='293626968' timestamp='2011-01-18T09:31:50Z' uid='116029' user='Gregory Arenius' visible='true' version='11' changeset='7008430' lat='37.7942508' lon='-122.3932729'>
+    <tag k='highway' v='traffic_signals' />
+  </node>
+  <node id='295184727' timestamp='2009-04-09T21:56:30Z' uid='81497' user='RaffyO' visible='true' version='2' changeset='389702' lat='37.7886269' lon='-122.4019481' />
+  <node id='300759009' timestamp='2009-04-09T07:56:52Z' uid='81497' user='RaffyO' visible='true' version='7' changeset='347915' lat='37.7886915' lon='-122.3944674' />
+  <node id='300759180' timestamp='2009-02-27T06:38:49Z' uid='28775' user='StellanL' visible='true' version='6' changeset='681395' lat='37.7966' lon='-122.3955231' />
+  <node id='302737181' timestamp='2011-05-03T00:44:21Z' uid='14293' user='KindredCoda' visible='true' version='38' changeset='8035660' lat='37.7937868' lon='-122.3925122' />
+  <node id='317102881' timestamp='2011-05-02T22:58:33Z' uid='14293' user='KindredCoda' visible='true' version='11' changeset='8035462' lat='37.7840676' lon='-122.3948651' />
+  <node id='317102904' timestamp='2011-05-02T21:22:40Z' uid='14293' user='KindredCoda' visible='true' version='9' changeset='8034497' lat='37.7846062' lon='-122.3948097' />
+  <node id='317103681' timestamp='2011-05-28T00:24:08Z' uid='28775' user='StellanL' visible='true' version='9' changeset='8267850' lat='37.7885314' lon='-122.3942073' />
+  <node id='317129871' timestamp='2012-04-20T06:19:20Z' uid='14293' user='KindredCoda' visible='true' version='5' changeset='11360599' lat='37.7913995' lon='-122.3908233' />
+  <node id='364825869' timestamp='2012-04-08T23:06:51Z' uid='28775' user='StellanL' visible='true' version='5' changeset='11231953' lat='37.7874846' lon='-122.4073307' />
+  <node id='364825952' timestamp='2012-04-08T23:06:51Z' uid='28775' user='StellanL' visible='true' version='4' changeset='11231953' lat='37.7874644' lon='-122.4074938' />
+  <node id='370837527' timestamp='2010-06-04T01:08:16Z' uid='14293' user='KindredCoda' visible='true' version='2' changeset='4897380' lat='37.7922333' lon='-122.3911531' />
+  <node id='417732561' timestamp='2011-02-11T19:51:55Z' uid='116029' user='Gregory Arenius' visible='true' version='2' changeset='7258457' lat='37.7872979' lon='-122.3914072' />
+  <node id='552853360' timestamp='2012-01-06T00:34:46Z' uid='103253' user='gormur' visible='true' version='4' changeset='10307143' lat='37.7873727' lon='-122.4082344'>
+    <tag k='highway' v='traffic_signals' />
+    <tag k='turn_restrictions' v='yes' />
+  </node>
+  <node id='581258842' timestamp='2010-01-28T00:55:02Z' uid='28775' user='StellanL' visible='true' version='2' changeset='3732753' lat='37.7894604' lon='-122.3971756' />
+  <node id='612765879' timestamp='2010-01-13T06:07:54Z' uid='24452' user='Speight' visible='true' version='1' changeset='3607846' lat='37.7985805' lon='-122.3972635' />
+  <node id='763662533' timestamp='2012-04-20T06:19:15Z' uid='14293' user='KindredCoda' visible='true' version='3' changeset='11360599' lat='37.7893018' lon='-122.388158' />
+  <node id='763662534' timestamp='2012-04-20T06:19:21Z' uid='14293' user='KindredCoda' visible='true' version='3' changeset='11360599' lat='37.7894194' lon='-122.3882319' />
+  <node id='763662537' timestamp='2012-04-20T06:19:26Z' uid='14293' user='KindredCoda' visible='true' version='2' changeset='11360599' lat='37.7895823' lon='-122.3887146' />
+  <node id='763662542' timestamp='2012-04-20T06:19:24Z' uid='14293' user='KindredCoda' visible='true' version='2' changeset='11360599' lat='37.7896842' lon='-122.3888243' />
+  <node id='763662547' timestamp='2012-04-20T06:19:27Z' uid='14293' user='KindredCoda' visible='true' version='2' changeset='11360599' lat='37.7906454' lon='-122.3900332' />
+  <node id='763662550' timestamp='2012-04-20T06:19:15Z' uid='14293' user='KindredCoda' visible='true' version='2' changeset='11360599' lat='37.79082' lon='-122.3902642' />
+  <node id='763662553' timestamp='2012-04-20T06:19:19Z' uid='14293' user='KindredCoda' visible='true' version='2' changeset='11360599' lat='37.7909237' lon='-122.390394' />
+  <node id='763662647' timestamp='2012-04-20T06:19:19Z' uid='14293' user='KindredCoda' visible='true' version='4' changeset='11360599' lat='37.7881011' lon='-122.3877696' />
+  <node id='763662655' timestamp='2012-04-20T06:19:20Z' uid='14293' user='KindredCoda' visible='true' version='2' changeset='11360599' lat='37.7917989' lon='-122.3910305' />
+  <node id='763662656' timestamp='2012-04-20T06:19:17Z' uid='14293' user='KindredCoda' visible='true' version='2' changeset='11360599' lat='37.7916666' lon='-122.3909738' />
+  <node id='763662657' timestamp='2012-04-20T06:19:15Z' uid='14293' user='KindredCoda' visible='true' version='2' changeset='11360599' lat='37.7912785' lon='-122.3907363' />
+  <node id='763662658' timestamp='2012-04-20T06:19:16Z' uid='14293' user='KindredCoda' visible='true' version='2' changeset='11360599' lat='37.7910368' lon='-122.3905192' />
+  <node id='763662659' timestamp='2012-04-20T06:19:25Z' uid='14293' user='KindredCoda' visible='true' version='2' changeset='11360599' lat='37.7924376' lon='-122.3909019' />
+  <node id='763662665' timestamp='2012-04-20T06:19:24Z' uid='14293' user='KindredCoda' visible='true' version='2' changeset='11360599' lat='37.7920786' lon='-122.3906614' />
+  <node id='763662666' timestamp='2012-04-20T06:19:25Z' uid='14293' user='KindredCoda' visible='true' version='2' changeset='11360599' lat='37.7923236' lon='-122.3908113' />
+  <node id='763662726' timestamp='2012-04-20T06:19:22Z' uid='14293' user='KindredCoda' visible='true' version='2' changeset='11360599' lat='37.7926274' lon='-122.3910531' />
+  <node id='763662727' timestamp='2010-06-04T01:13:09Z' uid='14293' user='KindredCoda' visible='true' version='1' changeset='4897380' lat='37.7934669' lon='-122.3920248' />
+  <node id='763662731' timestamp='2010-06-04T01:13:33Z' uid='14293' user='KindredCoda' visible='true' version='1' changeset='4897380' lat='37.7936036' lon='-122.3921804' />
+  <node id='763662732' timestamp='2010-06-04T01:13:33Z' uid='14293' user='KindredCoda' visible='true' version='1' changeset='4897380' lat='37.7937541' lon='-122.3923413' />
+  <node id='763663896' timestamp='2012-04-20T06:19:16Z' uid='14293' user='KindredCoda' visible='true' version='3' changeset='11360599' lat='37.7873116' lon='-122.3877161' />
+  <node id='763663897' timestamp='2012-04-20T06:19:27Z' uid='14293' user='KindredCoda' visible='true' version='3' changeset='11360599' lat='37.7876156' lon='-122.3877122' />
+  <node id='763663898' timestamp='2012-04-20T06:19:15Z' uid='14293' user='KindredCoda' visible='true' version='3' changeset='11360599' lat='37.7877759' lon='-122.3877229' />
+  <node id='764493347' timestamp='2010-06-04T16:01:17Z' uid='14293' user='KindredCoda' visible='true' version='1' changeset='4902230' lat='37.7947012' lon='-122.3939776' />
+  <node id='764494064' timestamp='2010-06-04T16:13:46Z' uid='14293' user='KindredCoda' visible='true' version='2' changeset='4902230' lat='37.7950552' lon='-122.3943611' />
+  <node id='764494161' timestamp='2010-06-04T16:02:19Z' uid='14293' user='KindredCoda' visible='true' version='2' changeset='4902230' lat='37.7957122' lon='-122.3948091' />
+  <node id='764494797' timestamp='2012-12-16T13:17:40Z' uid='933797' user='oba510' visible='true' version='4' changeset='14292053' lat='37.7959469' lon='-122.394968'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='764499189' timestamp='2012-12-16T12:14:24Z' uid='933797' user='oba510' visible='true' version='4' changeset='14292053' lat='37.7943223' lon='-122.3933935'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='764499281' timestamp='2010-06-04T16:13:32Z' uid='14293' user='KindredCoda' visible='true' version='1' changeset='4902230' lat='37.794165' lon='-122.3931327' />
+  <node id='764499285' timestamp='2010-06-04T16:13:32Z' uid='14293' user='KindredCoda' visible='true' version='1' changeset='4902230' lat='37.7940685' lon='-122.3929959' />
+  <node id='865946070' timestamp='2012-04-13T06:20:47Z' uid='236172' user='saikofish' visible='true' version='2' changeset='11283934' lat='37.7902063' lon='-122.3981077' />
+  <node id='865946071' timestamp='2012-04-13T06:20:47Z' uid='236172' user='saikofish' visible='true' version='2' changeset='11283934' lat='37.7909052' lon='-122.3972442' />
+  <node id='869969308' timestamp='2010-08-20T08:57:00Z' uid='202256' user='Telecas' visible='true' version='1' changeset='5542006' lat='37.7894022' lon='-122.3953616' />
+  <node id='890045127' timestamp='2012-04-08T22:56:35Z' uid='28775' user='StellanL' visible='true' version='2' changeset='11231865' lat='37.7894266' lon='-122.3919087' />
+  <node id='890045132' timestamp='2014-01-16T04:27:22Z' uid='481533' user='dbaron' visible='true' version='3' changeset='20027187' lat='37.7880341' lon='-122.3936605'>
+    <tag k='highway' v='traffic_signals' />
+  </node>
+  <node id='890045153' timestamp='2011-04-30T00:44:11Z' uid='14293' user='KindredCoda' visible='true' version='2' changeset='8007967' lat='37.7887199' lon='-122.3927033' />
+  <node id='890045156' timestamp='2011-05-03T00:44:21Z' uid='14293' user='KindredCoda' visible='true' version='2' changeset='8035660' lat='37.7905892' lon='-122.393437' />
+  <node id='916328137' timestamp='2010-09-18T06:08:15Z' uid='202256' user='Telecas' visible='true' version='1' changeset='5808913' lat='37.7919259' lon='-122.3967834' />
+  <node id='916328138' timestamp='2010-09-18T06:08:15Z' uid='202256' user='Telecas' visible='true' version='1' changeset='5808913' lat='37.7916743' lon='-122.3964688' />
+  <node id='916328139' timestamp='2012-04-13T06:20:47Z' uid='236172' user='saikofish' visible='true' version='2' changeset='11283934' lat='37.7908378' lon='-122.3971598' />
+  <node id='1024125215' timestamp='2010-12-06T00:15:46Z' uid='116029' user='Gregory Arenius' visible='true' version='1' changeset='6558545' lat='37.7978595' lon='-122.3966241' />
+  <node id='1067969760' timestamp='2010-12-27T18:05:43Z' uid='381909' user='JessAk71' visible='true' version='1' changeset='6780430' lat='37.7934411' lon='-122.3919941' />
+  <node id='1094164250' timestamp='2011-05-02T21:22:40Z' uid='14293' user='KindredCoda' visible='true' version='2' changeset='8034497' lat='37.7857008' lon='-122.393426' />
+  <node id='1147880105' timestamp='2012-08-08T19:27:20Z' uid='573196' user='nithin_telenav' visible='true' version='2' changeset='12660907' lat='37.7875417' lon='-122.3912943' />
+  <node id='1147880120' timestamp='2012-08-08T19:27:20Z' uid='573196' user='nithin_telenav' visible='true' version='2' changeset='12660907' lat='37.7873915' lon='-122.3911056' />
+  <node id='1147880121' timestamp='2012-04-08T22:56:35Z' uid='28775' user='StellanL' visible='true' version='2' changeset='11231865' lat='37.7902065' lon='-122.3928913' />
+  <node id='1206753813' timestamp='2011-03-17T23:19:59Z' uid='381909' user='JessAk71' visible='true' version='1' changeset='7591037' lat='37.7899326' lon='-122.4030303' />
+  <node id='1270745627' timestamp='2011-05-03T00:44:12Z' uid='14293' user='KindredCoda' visible='true' version='1' changeset='8035660' lat='37.7852693' lon='-122.4031964' />
+  <node id='1270745636' timestamp='2011-05-03T00:44:13Z' uid='14293' user='KindredCoda' visible='true' version='1' changeset='8035660' lat='37.7856595' lon='-122.4027044' />
+  <node id='1270745639' timestamp='2012-09-17T01:37:53Z' uid='28775' user='StellanL' visible='true' version='2' changeset='13138042' lat='37.7850721' lon='-122.4034481' />
+  <node id='1270745642' timestamp='2011-05-03T00:44:13Z' uid='14293' user='KindredCoda' visible='true' version='1' changeset='8035660' lat='37.7861429' lon='-122.4020948' />
+  <node id='1270745645' timestamp='2011-05-03T00:44:13Z' uid='14293' user='KindredCoda' visible='true' version='1' changeset='8035660' lat='37.7845594' lon='-122.4040917' />
+  <node id='1302773697' timestamp='2011-05-28T00:24:05Z' uid='28775' user='StellanL' visible='true' version='1' changeset='8267850' lat='37.788167' lon='-122.3937582' />
+  <node id='1308305450' timestamp='2012-04-08T23:06:52Z' uid='28775' user='StellanL' visible='true' version='2' changeset='11231953' lat='37.7874451' lon='-122.4076494' />
+  <node id='1308305459' timestamp='2012-04-08T23:06:53Z' uid='28775' user='StellanL' visible='true' version='2' changeset='11231953' lat='37.7875177' lon='-122.4070631' />
+  <node id='1308305536' timestamp='2012-04-08T23:06:53Z' uid='28775' user='StellanL' visible='true' version='2' changeset='11231953' lat='37.7874281' lon='-122.4077864' />
+  <node id='1308305547' timestamp='2012-04-08T23:06:52Z' uid='28775' user='StellanL' visible='true' version='2' changeset='11231953' lat='37.7875001' lon='-122.4072054' />
+  <node id='1332541745' timestamp='2012-10-12T07:41:49Z' uid='933797' user='oba510' visible='true' version='2' changeset='13463252' lat='37.7866027' lon='-122.4024758' />
+  <node id='1369473144' timestamp='2011-07-21T21:45:07Z' uid='14293' user='KindredCoda' visible='true' version='1' changeset='8793222' lat='37.7937635' lon='-122.3925413' />
+  <node id='1419794015' timestamp='2012-12-15T16:48:13Z' uid='933797' user='oba510' visible='true' version='3' changeset='14283061' lat='37.7909096' lon='-122.3995576'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='1419794080' timestamp='2012-12-15T16:48:13Z' uid='933797' user='oba510' visible='true' version='2' changeset='14283061' lat='37.7911377' lon='-122.3992712'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='1419794119' timestamp='2011-09-01T04:22:13Z' uid='381909' user='JessAk71' visible='true' version='1' changeset='9181415' lat='37.7878254' lon='-122.4034641' />
+  <node id='1419794120' timestamp='2011-09-01T04:22:13Z' uid='381909' user='JessAk71' visible='true' version='1' changeset='9181415' lat='37.7879789' lon='-122.4033755' />
+  <node id='1419794148' timestamp='2012-12-15T16:48:13Z' uid='933797' user='oba510' visible='true' version='3' changeset='14283061' lat='37.791232' lon='-122.3996007'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='1455172166' timestamp='2012-12-16T13:17:40Z' uid='933797' user='oba510' visible='true' version='2' changeset='14292053' lat='37.7967855' lon='-122.3956826'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='1578907675' timestamp='2012-04-08T23:06:52Z' uid='28775' user='StellanL' visible='true' version='2' changeset='11231953' lat='37.7873747' lon='-122.4082179' />
+  <node id='1580501212' timestamp='2012-01-07T03:32:44Z' uid='28775' user='StellanL' visible='true' version='1' changeset='10318132' lat='37.7872195' lon='-122.398818' />
+  <node id='1613924564' timestamp='2012-02-11T05:19:54Z' uid='236172' user='saikofish' visible='true' version='2' changeset='10649554' lat='37.7885969' lon='-122.3990582' />
+  <node id='1613924565' timestamp='2012-02-11T05:19:54Z' uid='236172' user='saikofish' visible='true' version='2' changeset='10649554' lat='37.7886929' lon='-122.3989361' />
+  <node id='1613924586' timestamp='2012-02-01T06:59:06Z' uid='236172' user='saikofish' visible='true' version='1' changeset='10556267' lat='37.7893664' lon='-122.3980789' />
+  <node id='1723738815' timestamp='2012-04-20T09:04:00Z' uid='14293' user='KindredCoda' visible='true' version='1' changeset='11361726' lat='37.7944432' lon='-122.3948834' />
+  <node id='1723738831' timestamp='2013-07-01T09:01:01Z' uid='142205' user='skobbler' visible='true' version='3' changeset='16774698' lat='37.791734' lon='-122.3982976'>
+    <tag k='turn_restrictions' v='yes' />
+  </node>
+  <node id='1723738833' timestamp='2013-06-12T15:26:54Z' uid='67236' user='jfire' visible='true' version='2' changeset='16525376' lat='37.7867495' lon='-122.4046059' />
+  <node id='1723738843' timestamp='2012-04-20T09:04:02Z' uid='14293' user='KindredCoda' visible='true' version='1' changeset='11361726' lat='37.7916949' lon='-122.3982349' />
+  <node id='1723738865' timestamp='2012-12-28T19:39:57Z' uid='573196' user='nithin_telenav' visible='true' version='3' changeset='14443162' lat='37.7938262' lon='-122.3956943'>
+    <tag k='highway' v='traffic_signals' />
+    <tag k='turn_restrictions' v='yes' />
+  </node>
+  <node id='1723738893' timestamp='2012-04-20T09:04:04Z' uid='14293' user='KindredCoda' visible='true' version='1' changeset='11361726' lat='37.788802' lon='-122.4020077' />
+  <node id='1723738896' timestamp='2012-04-20T09:04:04Z' uid='14293' user='KindredCoda' visible='true' version='1' changeset='11361726' lat='37.7904358' lon='-122.3999404' />
+  <node id='1723738961' timestamp='2012-12-15T16:48:13Z' uid='933797' user='oba510' visible='true' version='2' changeset='14283061' lat='37.7886617' lon='-122.4019799'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='1723738965' timestamp='2012-04-20T09:04:08Z' uid='14293' user='KindredCoda' visible='true' version='1' changeset='11361726' lat='37.7887024' lon='-122.4019983' />
+  <node id='1723738990' timestamp='2013-06-12T15:26:54Z' uid='67236' user='jfire' visible='true' version='2' changeset='16525376' lat='37.7876758' lon='-122.4034364' />
+  <node id='1723739078' timestamp='2012-04-20T09:04:12Z' uid='14293' user='KindredCoda' visible='true' version='1' changeset='11361726' lat='37.7907856' lon='-122.3995418' />
+  <node id='1723739082' timestamp='2012-04-20T09:04:12Z' uid='14293' user='KindredCoda' visible='true' version='1' changeset='11361726' lat='37.7907586' lon='-122.3995491' />
+  <node id='1723739088' timestamp='2012-04-20T09:04:13Z' uid='14293' user='KindredCoda' visible='true' version='1' changeset='11361726' lat='37.793125' lon='-122.3965374' />
+  <node id='1723739105' timestamp='2012-04-20T09:04:13Z' uid='14293' user='KindredCoda' visible='true' version='1' changeset='11361726' lat='37.7887766' lon='-122.4020091' />
+  <node id='1723739112' timestamp='2012-04-20T09:04:14Z' uid='14293' user='KindredCoda' visible='true' version='1' changeset='11361726' lat='37.7923938' lon='-122.3973796' />
+  <node id='1723739121' timestamp='2012-04-20T09:04:14Z' uid='14293' user='KindredCoda' visible='true' version='1' changeset='11361726' lat='37.7880296' lon='-122.4029869' />
+  <node id='1723739123' timestamp='2012-04-20T09:04:14Z' uid='14293' user='KindredCoda' visible='true' version='1' changeset='11361726' lat='37.7910505' lon='-122.3991626' />
+  <node id='1723739165' timestamp='2012-04-20T09:04:16Z' uid='14293' user='KindredCoda' visible='true' version='1' changeset='11361726' lat='37.7944308' lon='-122.3949201' />
+  <node id='1723739166' timestamp='2012-04-20T09:04:16Z' uid='14293' user='KindredCoda' visible='true' version='1' changeset='11361726' lat='37.7944498' lon='-122.3948448' />
+  <node id='1723739240' timestamp='2012-04-20T09:04:19Z' uid='14293' user='KindredCoda' visible='true' version='1' changeset='11361726' lat='37.792361' lon='-122.3973526' />
+  <node id='1723739241' timestamp='2012-04-20T09:04:19Z' uid='14293' user='KindredCoda' visible='true' version='1' changeset='11361726' lat='37.7903123' lon='-122.4000967' />
+  <node id='1723739244' timestamp='2012-12-28T19:45:50Z' uid='573196' user='nithin_telenav' visible='true' version='2' changeset='14443247' lat='37.7892837' lon='-122.4013982'>
+    <tag k='turn_restrictions' v='yes' />
+  </node>
+  <node id='1723739266' timestamp='2012-12-28T19:39:57Z' uid='573196' user='nithin_telenav' visible='true' version='2' changeset='14443162' lat='37.7924404' lon='-122.3974037'>
+    <tag k='turn_restrictions' v='yes' />
+  </node>
+  <node id='1723739268' timestamp='2012-04-20T09:04:19Z' uid='14293' user='KindredCoda' visible='true' version='1' changeset='11361726' lat='37.7877285' lon='-122.4034439' />
+  <node id='1723739335' timestamp='2012-04-20T09:04:21Z' uid='14293' user='KindredCoda' visible='true' version='1' changeset='11361726' lat='37.7908171' lon='-122.3995417' />
+  <node id='1723739359' timestamp='2012-04-20T09:04:21Z' uid='14293' user='KindredCoda' visible='true' version='1' changeset='11361726' lat='37.7907272' lon='-122.3995716' />
+  <node id='1723739368' timestamp='2012-04-20T09:04:22Z' uid='14293' user='KindredCoda' visible='true' version='1' changeset='11361726' lat='37.7887363' lon='-122.4020064' />
+  <node id='2068535619' timestamp='2012-12-15T16:48:11Z' uid='933797' user='oba510' visible='true' version='1' changeset='14283061' lat='37.788917' lon='-122.4018637'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='2068535622' timestamp='2012-12-15T16:48:11Z' uid='933797' user='oba510' visible='true' version='1' changeset='14283061' lat='37.7909545' lon='-122.3990426'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='2068535623' timestamp='2012-12-15T16:48:11Z' uid='933797' user='oba510' visible='true' version='1' changeset='14283061' lat='37.7911461' lon='-122.3990417'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='2068535636' timestamp='2012-12-15T16:48:11Z' uid='933797' user='oba510' visible='true' version='1' changeset='14283061' lat='37.7909293' lon='-122.3993159'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='2069694255' timestamp='2012-12-16T12:41:02Z' uid='933797' user='oba510' visible='true' version='1' changeset='14292053' lat='37.7944237' lon='-122.3949312'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='2069726478' timestamp='2012-12-16T13:17:40Z' uid='933797' user='oba510' visible='true' version='1' changeset='14292053' lat='37.7965176' lon='-122.3954527'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='2071244702' timestamp='2012-12-17T09:50:05Z' uid='933797' user='oba510' visible='true' version='1' changeset='14303796' lat='37.7987933' lon='-122.3974523' />
+  <node id='2071244884' timestamp='2012-12-17T09:50:08Z' uid='933797' user='oba510' visible='true' version='1' changeset='14303796' lat='37.7990692' lon='-122.3976911'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='2071280038' timestamp='2012-12-17T10:33:07Z' uid='933797' user='oba510' visible='true' version='1' changeset='14304206' lat='37.7871799' lon='-122.3877284'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='2331980048' timestamp='2013-06-04T16:40:08Z' uid='67236' user='jfire' visible='true' version='1' changeset='16421782' lat='37.7900886' lon='-122.4003797' />
+  <node id='2331980049' timestamp='2013-06-04T16:40:08Z' uid='67236' user='jfire' visible='true' version='1' changeset='16421782' lat='37.7901706' lon='-122.4003812' />
+  <node id='2331980050' timestamp='2013-06-04T16:40:08Z' uid='67236' user='jfire' visible='true' version='1' changeset='16421782' lat='37.7902192' lon='-122.400398' />
+  <node id='2331980051' timestamp='2013-06-04T16:40:08Z' uid='67236' user='jfire' visible='true' version='1' changeset='16421782' lat='37.7902441' lon='-122.4004435' />
+  <node id='2356786801' timestamp='2013-06-23T03:15:38Z' uid='481533' user='dbaron' visible='true' version='1' changeset='16663878' lat='37.7900283' lon='-122.3892571' />
+  <node id='2685918430' timestamp='2014-02-22T23:32:16Z' uid='383461' user='phoenix23' visible='true' version='1' changeset='20723664' lat='37.7852748' lon='-122.3909624' />
+  <way id='8917425' timestamp='2014-04-22T19:08:18Z' uid='153669' user='dchiles' visible='true' version='23' changeset='21869891'>
+    <nd ref='65317703' />
+    <nd ref='260193613' />
+    <tag k='highway' v='primary' />
+    <tag k='maxspeed' v='25 mph' />
+    <tag k='name' v='Harrison Street' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Harrison' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='tiger:zip_left' v='94110' />
+    <tag k='tiger:zip_right' v='94110' />
+  </way>
+  <way id='8918460' timestamp='2011-02-11T19:51:47Z' uid='116029' user='Gregory Arenius' visible='true' version='19' changeset='7258457'>
+    <nd ref='65317515' />
+    <nd ref='890045127' />
+    <nd ref='1147880121' />
+    <nd ref='65306787' />
+    <tag k='highway' v='tertiary' />
+    <tag k='name' v='Main Street' />
+    <tag k='oneway' v='yes' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Main' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='tiger:separated' v='no' />
+    <tag k='tiger:source' v='tiger_import_dch_v0.6_20070809' />
+    <tag k='tiger:tlid' v='192298787' />
+  </way>
+  <way id='8918656' timestamp='2012-04-20T09:05:19Z' uid='14293' user='KindredCoda' visible='true' version='10' changeset='11361726'>
+    <nd ref='1723738893' />
+    <nd ref='1723739105' />
+    <nd ref='1723739368' />
+    <nd ref='1723738965' />
+    <nd ref='1723738961' />
+    <nd ref='295184727' />
+    <nd ref='65318326' />
+    <nd ref='65306993' />
+    <nd ref='65329978' />
+    <nd ref='65329980' />
+    <tag k='highway' v='secondary' />
+    <tag k='name' v='New Montgomery Street' />
+    <tag k='oneway' v='yes' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='New Montgomery' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='tiger:separated' v='no' />
+    <tag k='tiger:source' v='tiger_import_dch_v0.6_20070809' />
+    <tag k='tiger:tlid' v='192281560:192281562:192281566:192281556:192281578:192281408:192281427' />
+    <tag k='tiger:zip_left' v='94105' />
+    <tag k='tiger:zip_right' v='94105' />
+  </way>
+  <way id='8919020' timestamp='2014-01-02T07:53:11Z' uid='119881' user='Clorox' visible='true' version='22' changeset='19757492'>
+    <nd ref='1723739123' />
+    <nd ref='2068535622' />
+    <nd ref='65318323' />
+    <nd ref='65306967' />
+    <nd ref='865946070' />
+    <nd ref='65304021' />
+    <nd ref='65334510' />
+    <tag k='highway' v='secondary' />
+    <tag k='name' v='1st Street' />
+    <tag k='oneway' v='yes' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='1st' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='tiger:zip_left' v='94105' />
+    <tag k='tiger:zip_right' v='94105' />
+    <tag k='trolley_wire' v='yes' />
+  </way>
+  <way id='8919180' timestamp='2013-07-01T18:46:47Z' uid='190493' user='vonvonvon' visible='true' version='6' changeset='16781624'>
+    <nd ref='65317519' />
+    <nd ref='65337016' />
+    <tag k='highway' v='service' />
+    <tag k='name' v='Zeno Place' />
+    <tag k='service' v='alley' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Zeno' />
+    <tag k='tiger:name_type' v='Pl' />
+    <tag k='tiger:zip_left' v='94105' />
+    <tag k='tiger:zip_right' v='94105' />
+  </way>
+  <way id='8920734' timestamp='2014-01-02T07:52:38Z' uid='119881' user='Clorox' visible='true' version='14' changeset='19757492'>
+    <nd ref='65303525' />
+    <nd ref='65319911' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lcn_ref' v='11' />
+    <tag k='name' v='Sansome Street' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Sansome' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='trolley_wire' v='yes' />
+  </way>
+  <way id='8921065' timestamp='2014-05-06T16:59:51Z' uid='2053369' user='NayanataraM' visible='true' version='26' changeset='22170724'>
+    <nd ref='302737181' />
+    <nd ref='65363148' />
+    <tag k='highway' v='primary' />
+    <tag k='lcn_ref' v='50' />
+    <tag k='name' v='Mission Street' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Mission' />
+    <tag k='tiger:name_type' v='St' />
+  </way>
+  <way id='8922029' timestamp='2013-04-06T19:19:29Z' uid='6585' user='Martin Atkins' visible='true' version='10' changeset='15630883'>
+    <nd ref='65335575' />
+    <nd ref='65372273' />
+    <nd ref='65290207' />
+    <tag k='alt_name' v='Rincon Alley' />
+    <tag k='highway' v='service' />
+    <tag k='name' v='Rincon Street' />
+    <tag k='name_1' v='Rincon Alley' />
+    <tag k='service' v='alley' />
+    <tag k='sidewalk' v='both' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Rincon' />
+    <tag k='tiger:name_base_1' v='Rincon' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='tiger:name_type_1' v='Aly' />
+    <tag k='tiger:zip_left' v='94107' />
+    <tag k='tiger:zip_right' v='94107' />
+  </way>
+  <way id='8922263' timestamp='2014-04-22T19:10:26Z' uid='153669' user='dchiles' visible='true' version='31' changeset='21869891'>
+    <nd ref='65330654' />
+    <nd ref='763662665' />
+    <nd ref='65373331' />
+    <nd ref='763662666' />
+    <nd ref='763662659' />
+    <nd ref='65306782' />
+    <nd ref='763662726' />
+    <nd ref='65373457' />
+    <nd ref='1067969760' />
+    <nd ref='763662727' />
+    <nd ref='763662731' />
+    <nd ref='763662732' />
+    <nd ref='65363148' />
+    <tag k='cycleway' v='lane' />
+    <tag k='highway' v='primary' />
+    <tag k='lcn_ref' v='5' />
+    <tag k='maxspeed' v='30 mph' />
+    <tag k='name' v='The Embarcadero' />
+    <tag k='oneway' v='yes' />
+    <tag k='sidewalk' v='separate' />
+    <tag k='tiger:cfcc' v='A45' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='The Embarcadero' />
+  </way>
+  <way id='24335489' timestamp='2014-04-22T19:10:28Z' uid='153669' user='dchiles' visible='true' version='35' changeset='21869891'>
+    <nd ref='258965618' />
+    <nd ref='2071244884' />
+    <nd ref='277632380' />
+    <nd ref='2071244702' />
+    <nd ref='612765879' />
+    <nd ref='1024125215' />
+    <nd ref='65373369' />
+    <nd ref='1455172166' />
+    <nd ref='258965616' />
+    <nd ref='300759180' />
+    <nd ref='2069726478' />
+    <nd ref='65373240' />
+    <nd ref='764494797' />
+    <nd ref='65373475' />
+    <nd ref='764494161' />
+    <nd ref='65336938' />
+    <nd ref='65373473' />
+    <nd ref='65373471' />
+    <nd ref='764494064' />
+    <nd ref='65373469' />
+    <nd ref='65373467' />
+    <nd ref='764493347' />
+    <nd ref='65373465' />
+    <nd ref='764499189' />
+    <nd ref='293626968' />
+    <nd ref='764499281' />
+    <nd ref='764499285' />
+    <nd ref='65373464' />
+    <nd ref='258965613' />
+    <tag k='cycleway' v='lane' />
+    <tag k='highway' v='primary' />
+    <tag k='lcn_ref' v='5' />
+    <tag k='maxspeed' v='30 mph' />
+    <tag k='name' v='The Embarcadero' />
+    <tag k='oneway' v='yes' />
+    <tag k='tiger:cfcc' v='A45' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='The Embarcadero' />
+  </way>
+  <way id='24335490' timestamp='2014-04-22T19:10:26Z' uid='153669' user='dchiles' visible='true' version='21' changeset='21869891'>
+    <nd ref='260193609' />
+    <nd ref='370837527' />
+    <nd ref='763662655' />
+    <nd ref='763662656' />
+    <nd ref='260193610' />
+    <nd ref='317129871' />
+    <nd ref='763662657' />
+    <nd ref='260193611' />
+    <nd ref='763662658' />
+    <nd ref='763662553' />
+    <nd ref='763662550' />
+    <nd ref='260193612' />
+    <tag k='cycleway' v='lane' />
+    <tag k='highway' v='primary' />
+    <tag k='lcn_ref' v='5' />
+    <tag k='maxspeed' v='30 mph' />
+    <tag k='name' v='The Embarcadero' />
+    <tag k='oneway' v='yes' />
+    <tag k='tiger:cfcc' v='A45' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='The Embarcadero' />
+  </way>
+  <way id='24657731' timestamp='2012-08-10T22:04:34Z' uid='573196' user='nithin_telenav' visible='true' version='21' changeset='12685563'>
+    <nd ref='65317521' />
+    <nd ref='890045132' />
+    <nd ref='1302773697' />
+    <nd ref='317103681' />
+    <nd ref='300759009' />
+    <nd ref='65306793' />
+    <nd ref='869969308' />
+    <nd ref='65325220' />
+    <tag k='highway' v='tertiary' />
+    <tag k='name' v='Fremont Street' />
+    <tag k='oneway' v='yes' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Fremont' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='tiger:separated' v='no' />
+    <tag k='tiger:source' v='tiger_import_dch_v0.6_20070809' />
+    <tag k='tiger:tlid' v='192292140' />
+  </way>
+  <way id='27397692' timestamp='2014-05-01T22:47:53Z' uid='510836' user='Rub21' visible='true' version='7' changeset='22074515'>
+    <nd ref='65317709' />
+    <nd ref='65317515' />
+    <tag k='highway' v='tertiary' />
+    <tag k='name' v='Main Street' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Main' />
+    <tag k='tiger:name_type' v='St' />
+  </way>
+  <way id='27398032' timestamp='2012-08-08T19:27:20Z' uid='573196' user='nithin_telenav' visible='true' version='12' changeset='12660907'>
+    <nd ref='65308416' />
+    <nd ref='65308418' />
+    <nd ref='1147880105' />
+    <nd ref='1147880120' />
+    <nd ref='65290185' />
+    <nd ref='65298637' />
+    <nd ref='65308428' />
+    <tag k='highway' v='residential' />
+    <tag k='name' v='Beale Street' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Beale' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='tiger:separated' v='no' />
+    <tag k='tiger:source' v='tiger_import_dch_v0.6_20070809' />
+    <tag k='tiger:tlid' v='192294913:192296661:192281748:192295761:192281695:192292142:192298651:192298652:192295130:192281521:192295129:192281680' />
+    <tag k='tiger:zip_left' v='94105' />
+    <tag k='tiger:zip_right' v='94105' />
+  </way>
+  <way id='30831808' timestamp='2014-05-06T16:59:51Z' uid='2053369' user='NayanataraM' visible='true' version='10' changeset='22170724'>
+    <nd ref='258965613' />
+    <nd ref='1369473144' />
+    <nd ref='302737181' />
+    <tag k='highway' v='primary' />
+    <tag k='lcn_ref' v='50' />
+    <tag k='name' v='Mission Street' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Mission' />
+    <tag k='tiger:name_type' v='St' />
+  </way>
+  <way id='35675861' timestamp='2014-04-22T19:08:20Z' uid='153669' user='dchiles' visible='true' version='8' changeset='21869891'>
+    <nd ref='417732561' />
+    <nd ref='65285239' />
+    <nd ref='65284511' />
+    <nd ref='1094164250' />
+    <nd ref='65281429' />
+    <nd ref='268012546' />
+    <nd ref='317102904' />
+    <nd ref='65317045' />
+    <tag k='highway' v='primary' />
+    <tag k='maxspeed' v='25 mph' />
+    <tag k='name' v='Harrison Street' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Harrison' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='tiger:zip_left' v='94110' />
+    <tag k='tiger:zip_right' v='94110' />
+  </way>
+  <way id='86334994' timestamp='2014-01-02T07:52:23Z' uid='119881' user='Clorox' visible='true' version='3' changeset='19757492'>
+    <nd ref='65351772' />
+    <nd ref='1270745645' />
+    <nd ref='1270745639' />
+    <nd ref='1270745627' />
+    <nd ref='1270745636' />
+    <nd ref='1270745642' />
+    <nd ref='65300097' />
+    <tag k='highway' v='secondary' />
+    <tag k='name' v='Mission Street' />
+    <tag k='oneway' v='yes' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Mission' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='trolley_wire' v='yes' />
+  </way>
+  <way id='88463829' timestamp='2014-04-22T19:10:29Z' uid='153669' user='dchiles' visible='true' version='4' changeset='21869891'>
+    <nd ref='260193612' />
+    <nd ref='763662547' />
+    <nd ref='2356786801' />
+    <nd ref='763662542' />
+    <nd ref='763662537' />
+    <nd ref='260193613' />
+    <tag k='cycleway' v='lane' />
+    <tag k='highway' v='primary' />
+    <tag k='lcn_ref' v='5' />
+    <tag k='maxspeed' v='30 mph' />
+    <tag k='name' v='The Embarcadero' />
+    <tag k='oneway' v='yes' />
+    <tag k='tiger:cfcc' v='A45' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='The Embarcadero' />
+  </way>
+  <way id='88463830' timestamp='2014-04-22T19:07:59Z' uid='153669' user='dchiles' visible='true' version='4' changeset='21869891'>
+    <nd ref='260193612' />
+    <nd ref='65317511' />
+    <tag k='cycleway' v='lane' />
+    <tag k='highway' v='secondary' />
+    <tag k='lcn_ref' v='30' />
+    <tag k='maxspeed' v='25 mph' />
+    <tag k='name' v='Folsom Street' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Folsom' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='tiger:zip_left' v='94110' />
+    <tag k='tiger:zip_right' v='94110' />
+  </way>
+  <way id='88466055' timestamp='2014-04-22T19:08:18Z' uid='153669' user='dchiles' visible='true' version='4' changeset='21869891'>
+    <nd ref='260193613' />
+    <nd ref='65303506' />
+    <nd ref='65317709' />
+    <tag k='highway' v='primary' />
+    <tag k='maxspeed' v='25 mph' />
+    <tag k='name' v='Harrison Street' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Harrison' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='tiger:zip_left' v='94110' />
+    <tag k='tiger:zip_right' v='94110' />
+  </way>
+  <way id='88559650' timestamp='2014-04-22T19:07:34Z' uid='153669' user='dchiles' visible='true' version='3' changeset='21869891'>
+    <nd ref='65290211' />
+    <nd ref='65290210' />
+    <tag k='highway' v='primary' />
+    <tag k='maxspeed' v='25 mph' />
+    <tag k='name' v='Bryant Street' />
+    <tag k='oneway' v='yes' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Bryant' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='tiger:zip_left' v='94110; 94107' />
+    <tag k='tiger:zip_left_1' v='94103' />
+    <tag k='tiger:zip_right' v='94103' />
+  </way>
+  <way id='88559661' timestamp='2014-01-04T02:53:45Z' uid='119881' user='Clorox' visible='true' version='5' changeset='19798684'>
+    <nd ref='65317045' />
+    <nd ref='317102881' />
+    <nd ref='65317048' />
+    <nd ref='65290211' />
+    <tag k='alt_name' v='Second Street' />
+    <tag k='highway' v='secondary' />
+    <tag k='lcn_ref' v='11' />
+    <tag k='name' v='2nd Street' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='2nd' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='tiger:zip_left' v='94107' />
+    <tag k='tiger:zip_right' v='94107' />
+    <tag k='trolley_wire' v='yes' />
+  </way>
+  <way id='88559669' timestamp='2014-01-02T07:52:17Z' uid='119881' user='Clorox' visible='true' version='3' changeset='19757492'>
+    <nd ref='65317030' />
+    <nd ref='65329980' />
+    <tag k='highway' v='secondary' />
+    <tag k='name' v='Mission Street' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Mission' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='trolley_wire' v='yes' />
+  </way>
+  <way id='88559691' timestamp='2013-06-13T02:53:37Z' uid='67236' user='jfire' visible='true' version='5' changeset='16531950'>
+    <nd ref='65317030' />
+    <nd ref='65317032' />
+    <nd ref='1580501212' />
+    <nd ref='65317035' />
+    <nd ref='65306797' />
+    <nd ref='65317037' />
+    <nd ref='65317040' />
+    <nd ref='65317042' />
+    <tag k='alt_name' v='Second Street' />
+    <tag k='highway' v='secondary' />
+    <tag k='lcn_ref' v='11' />
+    <tag k='name' v='2nd Street' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='2nd' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='tiger:zip_left' v='94107' />
+    <tag k='tiger:zip_right' v='94107' />
+  </way>
+  <way id='88572877' timestamp='2014-01-02T07:52:23Z' uid='119881' user='Clorox' visible='true' version='3' changeset='19757492'>
+    <nd ref='65334510' />
+    <nd ref='1613924586' />
+    <nd ref='65322605' />
+    <nd ref='65292818' />
+    <nd ref='1613924565' />
+    <nd ref='1613924564' />
+    <nd ref='65353195' />
+    <nd ref='65317030' />
+    <tag k='highway' v='secondary' />
+    <tag k='name' v='Mission Street' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Mission' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='trolley_wire' v='yes' />
+  </way>
+  <way id='88572881' timestamp='2014-01-02T07:51:53Z' uid='119881' user='Clorox' visible='true' version='3' changeset='19757492'>
+    <nd ref='65363153' />
+    <nd ref='916328139' />
+    <nd ref='865946071' />
+    <nd ref='1723738843' />
+    <nd ref='1723738831' />
+    <tag k='highway' v='tertiary' />
+    <tag k='name' v='Fremont Street' />
+    <tag k='oneway' v='yes' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Fremont' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='trolley_wire' v='yes' />
+  </way>
+  <way id='88572905' timestamp='2014-01-02T09:46:19Z' uid='119881' user='Clorox' visible='true' version='5' changeset='19761596'>
+    <nd ref='65334510' />
+    <nd ref='581258842' />
+    <nd ref='65319582' />
+    <tag k='highway' v='secondary' />
+    <tag k='lanes' v='4' />
+    <tag k='name' v='1st Street' />
+    <tag k='oneway' v='yes' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='1st' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='tiger:zip_left' v='94105' />
+    <tag k='tiger:zip_right' v='94105' />
+    <tag k='trolley_wire' v='yes' />
+  </way>
+  <way id='88572948' timestamp='2010-12-08T21:15:31Z' uid='116029' user='Gregory Arenius' visible='true' version='1' changeset='6589460'>
+    <nd ref='65329980' />
+    <nd ref='65319587' />
+    <nd ref='65325227' />
+    <nd ref='65306800' />
+    <tag k='highway' v='secondary' />
+    <tag k='name' v='New Montgomery Street' />
+    <tag k='oneway' v='yes' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='New Montgomery' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='tiger:separated' v='no' />
+    <tag k='tiger:source' v='tiger_import_dch_v0.6_20070809' />
+    <tag k='tiger:tlid' v='192281560:192281562:192281566:192281556:192281578:192281408:192281427' />
+    <tag k='tiger:zip_left' v='94105' />
+    <tag k='tiger:zip_right' v='94105' />
+  </way>
+  <way id='88572970' timestamp='2014-01-02T07:52:18Z' uid='119881' user='Clorox' visible='true' version='3' changeset='19757492'>
+    <nd ref='65363153' />
+    <nd ref='65334510' />
+    <tag k='highway' v='secondary' />
+    <tag k='name' v='Mission Street' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Mission' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='trolley_wire' v='yes' />
+  </way>
+  <way id='88597544' timestamp='2014-02-22T22:57:00Z' uid='383461' user='phoenix23' visible='true' version='10' changeset='20723664'>
+    <nd ref='1723738990' />
+    <nd ref='1723739268' />
+    <nd ref='1419794119' />
+    <nd ref='65334111' />
+    <nd ref='65348742' />
+    <nd ref='65314146' />
+    <tag k='highway' v='primary' />
+    <tag k='name' v='Kearny Street' />
+    <tag k='oneway' v='yes' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Kearny' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='tiger:zip_left' v='94133' />
+    <tag k='tiger:zip_right' v='94133' />
+    <tag k='trolley_wire' v='yes' />
+  </way>
+  <way id='88597563' timestamp='2014-01-13T04:17:54Z' uid='119881' user='Clorox' visible='true' version='8' changeset='19965506'>
+    <nd ref='1723739266' />
+    <nd ref='1723739112' />
+    <nd ref='1723739240' />
+    <nd ref='916328137' />
+    <nd ref='916328138' />
+    <nd ref='65308413' />
+    <tag k='highway' v='tertiary' />
+    <tag k='name' v='Beale Street' />
+    <tag k='oneway' v='yes' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Beale' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='tiger:zip_left' v='94105' />
+    <tag k='tiger:zip_right' v='94105' />
+    <tag k='trolley_wire' v='yes' />
+  </way>
+  <way id='88597577' timestamp='2012-04-20T09:04:55Z' uid='14293' user='KindredCoda' visible='true' version='4' changeset='11361726'>
+    <nd ref='1723739244' />
+    <nd ref='65317028' />
+    <nd ref='65306991' />
+    <nd ref='65317030' />
+    <tag k='alt_name' v='Second Street' />
+    <tag k='highway' v='secondary' />
+    <tag k='lcn_ref' v='11' />
+    <tag k='name' v='2nd Street' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='2nd' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='tiger:separated' v='no' />
+    <tag k='tiger:source' v='tiger_import_dch_v0.6_20070809' />
+    <tag k='tiger:tlid' v='192289475:192289478:192298771:192298772:192289435' />
+    <tag k='tiger:zip_left' v='94107' />
+    <tag k='tiger:zip_right' v='94107' />
+  </way>
+  <way id='91181773' timestamp='2012-04-20T09:05:11Z' uid='14293' user='KindredCoda' visible='true' version='4' changeset='11361726'>
+    <nd ref='65319908' />
+    <nd ref='1419794148' />
+    <nd ref='65336470' />
+    <nd ref='1419794015' />
+    <nd ref='1723739335' />
+    <nd ref='1723739078' />
+    <nd ref='1723739082' />
+    <nd ref='1723739359' />
+    <tag k='highway' v='secondary' />
+    <tag k='lcn_ref' v='11' />
+    <tag k='name' v='Battery Street' />
+    <tag k='oneway' v='yes' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Battery' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='tiger:separated' v='no' />
+    <tag k='tiger:source' v='tiger_import_dch_v0.6_20070809' />
+    <tag k='tiger:tlid' v='192281086:192281089:192281093:192281120:192281121:192281142:192281095:192302094' />
+    <tag k='tiger:upload_uuid' v='bulk_upload.pl-4ddcfcfe-e298-4ca3-a789-35779f3bf445' />
+    <tag k='tiger:zip_left' v='94111' />
+  </way>
+  <way id='91181774' timestamp='2012-05-09T06:01:18Z' uid='383461' user='phoenix23' visible='true' version='4' changeset='11546092'>
+    <nd ref='65319908' />
+    <nd ref='65319906' />
+    <nd ref='1419794080' />
+    <nd ref='1723739123' />
+    <tag k='highway' v='primary' />
+    <tag k='name' v='Bush Street' />
+    <tag k='oneway' v='yes' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Bush' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='tiger:separated' v='no' />
+    <tag k='tiger:source' v='tiger_import_dch_v0.6_20070809' />
+    <tag k='tiger:tlid' v='192279621:192279641:192279717:192279647:192279725:192279757:192280007:192280008:192279749:192279613:192280018' />
+    <tag k='tiger:upload_uuid' v='bulk_upload.pl-4ddcfcfe-e298-4ca3-a789-35779f3bf445' />
+    <tag k='tiger:zip_left' v='94115' />
+    <tag k='tiger:zip_right' v='94115' />
+  </way>
+  <way id='99231460' timestamp='2014-04-22T19:08:00Z' uid='153669' user='dchiles' visible='true' version='5' changeset='21869891'>
+    <nd ref='65317521' />
+    <nd ref='65317519' />
+    <tag k='cycleway:right' v='lane' />
+    <tag k='highway' v='primary' />
+    <tag k='lcn_ref' v='30' />
+    <tag k='maxspeed' v='25 mph' />
+    <tag k='name' v='Folsom Street' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Folsom' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='tiger:zip_left' v='94110' />
+    <tag k='tiger:zip_right' v='94110' />
+  </way>
+  <way id='99231475' timestamp='2014-04-22T19:08:25Z' uid='153669' user='dchiles' visible='true' version='6' changeset='21869891'>
+    <nd ref='65306787' />
+    <nd ref='890045156' />
+    <nd ref='65306789' />
+    <tag k='cycleway' v='lane' />
+    <tag k='highway' v='primary' />
+    <tag k='lcn_ref' v='30' />
+    <tag k='maxspeed' v='25 mph' />
+    <tag k='name' v='Howard Street' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Howard' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='tiger:zip_left' v='94103' />
+    <tag k='tiger:zip_right' v='94103' />
+    <tag k='trolley_wire' v='yes' />
+  </way>
+  <way id='99231482' timestamp='2013-01-22T21:53:36Z' uid='153669' user='dchiles' visible='true' version='3' changeset='14751236'>
+    <nd ref='65308416' />
+    <nd ref='890045153' />
+    <tag k='cycleway' v='lane' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lcn_ref' v='30' />
+    <tag k='name' v='Folsom Street' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Folsom' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='tiger:zip_left' v='94110' />
+    <tag k='tiger:zip_right' v='94110' />
+  </way>
+  <way id='99231486' timestamp='2014-04-22T19:08:00Z' uid='153669' user='dchiles' visible='true' version='5' changeset='21869891'>
+    <nd ref='65317519' />
+    <nd ref='65308416' />
+    <tag k='cycleway:right' v='lane' />
+    <tag k='highway' v='primary' />
+    <tag k='lcn_ref' v='30' />
+    <tag k='maxspeed' v='25 mph' />
+    <tag k='name' v='Folsom Street' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Folsom' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='tiger:zip_left' v='94110' />
+    <tag k='tiger:zip_right' v='94110' />
+  </way>
+  <way id='111552058' timestamp='2014-02-22T23:34:12Z' uid='383461' user='phoenix23' visible='true' version='6' changeset='20723664'>
+    <nd ref='65300097' />
+    <nd ref='1332541745' />
+    <nd ref='65300105' />
+    <nd ref='65300107' />
+    <tag k='highway' v='primary' />
+    <tag k='name' v='3rd Street' />
+    <tag k='oneway' v='yes' />
+    <tag k='tiger:cfcc' v='A45' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='3rd' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='tiger:zip_left' v='94124' />
+    <tag k='trolley_wire' v='yes' />
+  </way>
+  <way id='120256351' timestamp='2012-04-20T09:05:20Z' uid='14293' user='KindredCoda' visible='true' version='3' changeset='11361726'>
+    <nd ref='1723738865' />
+    <nd ref='65303488' />
+    <tag k='highway' v='secondary' />
+    <tag k='name' v='Spear Street' />
+    <tag k='oneway' v='yes' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Spear' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='tiger:separated' v='no' />
+    <tag k='tiger:source' v='tiger_import_dch_v0.6_20070809' />
+    <tag k='tiger:tlid' v='192298800:192298799:192281742:192281652:192295764:192296758:192281738' />
+    <tag k='tiger:zip_left' v='94105' />
+    <tag k='tiger:zip_left_1' v='94105' />
+    <tag k='tiger:zip_right' v='94105' />
+    <tag k='tiger:zip_right_1' v='94105' />
+    <tag k='trolley_wire' v='yes' />
+  </way>
+  <way id='133733593' timestamp='2014-01-02T07:52:53Z' uid='119881' user='Clorox' visible='true' version='3' changeset='19757492'>
+    <nd ref='65303525' />
+    <nd ref='65303529' />
+    <nd ref='65303531' />
+    <nd ref='1206753813' />
+    <nd ref='65303533' />
+    <tag k='highway' v='residential' />
+    <tag k='lcn_ref' v='16' />
+    <tag k='name' v='Sutter Street' />
+    <tag k='oneway' v='yes' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='tiger:zip_left' v='94115' />
+    <tag k='tiger:zip_right' v='94115' />
+    <tag k='trolley_wire' v='yes' />
+  </way>
+  <way id='133755922' timestamp='2014-01-02T09:46:18Z' uid='119881' user='Clorox' visible='true' version='3' changeset='19761596'>
+    <nd ref='1723739241' />
+    <nd ref='65303525' />
+    <tag k='highway' v='tertiary' />
+    <tag k='lcn_ref' v='11' />
+    <tag k='name' v='Sutter Street' />
+    <tag k='oneway' v='yes' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='tiger:zip_left' v='94115' />
+    <tag k='tiger:zip_right' v='94115' />
+    <tag k='trolley_wire' v='yes' />
+  </way>
+  <way id='135110258' timestamp='2014-04-22T19:07:35Z' uid='153669' user='dchiles' visible='true' version='6' changeset='21869891'>
+    <nd ref='65290207' />
+    <nd ref='65290204' />
+    <nd ref='65290200' />
+    <nd ref='2685918430' />
+    <nd ref='65290189' />
+    <tag k='access:backward' v='hov' />
+    <tag k='highway' v='tertiary' />
+    <tag k='maxspeed' v='25 mph' />
+    <tag k='name' v='Bryant Street' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Bryant' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='tiger:zip_left' v='94107' />
+    <tag k='tiger:zip_left_1' v='94103' />
+    <tag k='tiger:zip_right' v='94103' />
+  </way>
+  <way id='144489134' timestamp='2014-02-22T21:46:45Z' uid='383461' user='phoenix23' visible='true' version='4' changeset='20722657'>
+    <nd ref='1723739121' />
+    <nd ref='1419794120' />
+    <nd ref='65334111' />
+    <nd ref='65328690' />
+    <nd ref='65334114' />
+    <nd ref='1308305459' />
+    <nd ref='1308305547' />
+    <nd ref='364825869' />
+    <nd ref='364825952' />
+    <nd ref='1308305450' />
+    <nd ref='1308305536' />
+    <nd ref='1578907675' />
+    <nd ref='552853360' />
+    <tag k='highway' v='primary' />
+    <tag k='name' v='Geary Street' />
+    <tag k='oneway' v='yes' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Kearny; Geary' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='tiger:zip_left' v='94109' />
+    <tag k='tiger:zip_right' v='94109' />
+  </way>
+  <way id='160325571' timestamp='2013-06-03T06:26:41Z' uid='67236' user='jfire' visible='true' version='10' changeset='16401613'>
+    <nd ref='1723739166' />
+    <nd ref='1723738815' />
+    <nd ref='1723739165' />
+    <nd ref='2069694255' />
+    <nd ref='65367869' />
+    <nd ref='1723738865' />
+    <tag k='bicycle' v='yes' />
+    <tag k='cycleway' v='lane' />
+    <tag k='foot' v='yes' />
+    <tag k='highway' v='primary' />
+    <tag k='name' v='Market Street' />
+    <tag k='sidewalk' v='both' />
+    <tag k='surface' v='paved' />
+    <tag k='tiger:cfcc' v='A45' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Market' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='trolley_wire' v='yes' />
+  </way>
+  <way id='204884378' timestamp='2013-06-14T18:57:43Z' uid='1291871' user='Squirrel1982' visible='true' version='5' changeset='16554491'>
+    <nd ref='1723739123' />
+    <nd ref='2068535636' />
+    <nd ref='1723739359' />
+    <tag k='bicycle' v='yes' />
+    <tag k='cycleway' v='lane' />
+    <tag k='foot' v='yes' />
+    <tag k='highway' v='primary' />
+    <tag k='name' v='Market Street' />
+    <tag k='sidewalk' v='both' />
+    <tag k='surface' v='paved' />
+    <tag k='tiger:cfcc' v='A45' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Market' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='trolley_wire' v='yes' />
+  </way>
+  <way id='204884397' timestamp='2013-07-01T11:23:55Z' uid='142205' user='skobbler' visible='true' version='4' changeset='16776365'>
+    <nd ref='1723738990' />
+    <nd ref='1723738833' />
+    <tag k='bicycle' v='yes' />
+    <tag k='cycleway' v='lane' />
+    <tag k='foot' v='yes' />
+    <tag k='highway' v='primary' />
+    <tag k='name' v='Market Street' />
+    <tag k='sidewalk' v='both' />
+    <tag k='surface' v='paved' />
+    <tag k='tiger:cfcc' v='A45' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Market' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='trolley_wire' v='yes' />
+  </way>
+  <way id='224200967' timestamp='2013-06-04T16:40:40Z' uid='67236' user='jfire' visible='true' version='2' changeset='16421782'>
+    <nd ref='1723739241' />
+    <nd ref='2331980048' />
+    <tag k='bicycle' v='yes' />
+    <tag k='cycleway' v='lane' />
+    <tag k='foot' v='yes' />
+    <tag k='highway' v='primary' />
+    <tag k='name' v='Market Street' />
+    <tag k='sidewalk' v='both' />
+    <tag k='surface' v='paved' />
+    <tag k='tiger:cfcc' v='A45' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Market' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='trolley_wire' v='yes' />
+  </way>
+  <way id='224373753' timestamp='2013-12-30T20:39:17Z' uid='119881' user='Clorox' visible='true' version='2' changeset='19721987'>
+    <nd ref='258756405' />
+    <nd ref='1723739088' />
+    <nd ref='1723739266' />
+    <tag k='bicycle' v='yes' />
+    <tag k='cycleway' v='lane' />
+    <tag k='foot' v='yes' />
+    <tag k='highway' v='primary' />
+    <tag k='name' v='Market Street' />
+    <tag k='sidewalk' v='both' />
+    <tag k='surface' v='paved' />
+    <tag k='tiger:cfcc' v='A45' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Market' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='trolley_wire' v='yes' />
+  </way>
+  <way id='224384018' timestamp='2013-06-04T16:40:09Z' uid='67236' user='jfire' visible='true' version='1' changeset='16421782'>
+    <nd ref='2331980048' />
+    <nd ref='1723739244' />
+    <tag k='bicycle' v='yes' />
+    <tag k='cycleway' v='lane' />
+    <tag k='foot' v='yes' />
+    <tag k='highway' v='primary' />
+    <tag k='name' v='Market Street' />
+    <tag k='sidewalk' v='both' />
+    <tag k='surface' v='paved' />
+    <tag k='tiger:cfcc' v='A45' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Market' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='trolley_wire' v='yes' />
+  </way>
+  <way id='224384019' timestamp='2013-06-04T16:40:09Z' uid='67236' user='jfire' visible='true' version='1' changeset='16421782'>
+    <nd ref='1723739244' />
+    <nd ref='2068535619' />
+    <nd ref='1723738893' />
+    <tag k='bicycle' v='yes' />
+    <tag k='cycleway' v='lane' />
+    <tag k='foot' v='yes' />
+    <tag k='highway' v='primary' />
+    <tag k='name' v='Market Street' />
+    <tag k='sidewalk' v='both' />
+    <tag k='surface' v='paved' />
+    <tag k='tiger:cfcc' v='A45' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Market' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='trolley_wire' v='yes' />
+  </way>
+  <way id='224384027' timestamp='2013-06-04T16:40:11Z' uid='67236' user='jfire' visible='true' version='1' changeset='16421782'>
+    <nd ref='65303525' />
+    <nd ref='2331980051' />
+    <nd ref='2331980050' />
+    <nd ref='2331980049' />
+    <nd ref='2331980048' />
+    <tag k='access' v='no' />
+    <tag k='bus' v='yes' />
+    <tag k='highway' v='service' />
+    <tag k='name' v='Sansome Street' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='225719777' timestamp='2013-06-14T18:57:38Z' uid='1291871' user='Squirrel1982' visible='true' version='1' changeset='16554491'>
+    <nd ref='1723739359' />
+    <nd ref='1723738896' />
+    <nd ref='1723739241' />
+    <tag k='bicycle' v='yes' />
+    <tag k='cycleway' v='lane' />
+    <tag k='foot' v='yes' />
+    <tag k='highway' v='primary' />
+    <tag k='name' v='Market Street' />
+    <tag k='sidewalk' v='both' />
+    <tag k='surface' v='paved' />
+    <tag k='tiger:cfcc' v='A45' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Market' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='trolley_wire' v='yes' />
+  </way>
+  <way id='228186482' timestamp='2013-07-01T09:01:00Z' uid='142205' user='skobbler' visible='true' version='1' changeset='16774698'>
+    <nd ref='1723738831' />
+    <nd ref='2068535623' />
+    <nd ref='1723739123' />
+    <tag k='bicycle' v='yes' />
+    <tag k='cycleway' v='lane' />
+    <tag k='foot' v='yes' />
+    <tag k='highway' v='primary' />
+    <tag k='name' v='Market Street' />
+    <tag k='sidewalk' v='both' />
+    <tag k='surface' v='paved' />
+    <tag k='tiger:cfcc' v='A45' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Market' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='trolley_wire' v='yes' />
+  </way>
+  <way id='228196396' timestamp='2013-07-01T10:17:17Z' uid='142205' user='skobbler' visible='true' version='1' changeset='16775513'>
+    <nd ref='1723739121' />
+    <nd ref='1723738990' />
+    <tag k='bicycle' v='yes' />
+    <tag k='cycleway' v='lane' />
+    <tag k='foot' v='yes' />
+    <tag k='highway' v='primary' />
+    <tag k='name' v='Market Street' />
+    <tag k='sidewalk' v='both' />
+    <tag k='surface' v='paved' />
+    <tag k='tiger:cfcc' v='A45' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Market' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='trolley_wire' v='yes' />
+  </way>
+  <way id='255330056' timestamp='2014-04-22T19:10:28Z' uid='153669' user='dchiles' visible='true' version='2' changeset='21869891'>
+    <nd ref='65290178' />
+    <nd ref='2071280038' />
+    <nd ref='763663896' />
+    <nd ref='65330584' />
+    <nd ref='763663897' />
+    <nd ref='763663898' />
+    <nd ref='65330580' />
+    <nd ref='763662647' />
+    <nd ref='65330577' />
+    <nd ref='65330575' />
+    <nd ref='65330572' />
+    <nd ref='65330569' />
+    <nd ref='763662533' />
+    <nd ref='763662534' />
+    <nd ref='65330567' />
+    <nd ref='65317703' />
+    <tag k='cycleway' v='lane' />
+    <tag k='highway' v='primary' />
+    <tag k='lcn_ref' v='5' />
+    <tag k='maxspeed' v='30 mph' />
+    <tag k='name' v='The Embarcadero' />
+    <tag k='oneway' v='yes' />
+    <tag k='sidewalk' v='separate' />
+    <tag k='tiger:cfcc' v='A45' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='The Embarcadero' />
+    <tag k='tiger:zip_left' v='94105' />
+  </way>
+  <relation id='1284887' timestamp='2014-01-04T23:40:42Z' uid='119881' user='Clorox' visible='true' version='6' changeset='19815429'>
+    <member type='way' ref='86334994' role='from' />
+    <member type='node' ref='65300097' role='via' />
+    <member type='way' ref='111552058' role='to' />
+    <tag k='except' v='psv;taxi;muni' />
+    <tag k='name' v='No Left from Mission Eastbound to 3rd' />
+    <tag k='restriction' v='no_left_turn' />
+    <tag k='type' v='restriction' />
+  </relation>
+  <relation id='1309487' timestamp='2010-12-08T03:13:18Z' uid='116029' user='Gregory Arenius' visible='true' version='1' changeset='6581846'>
+    <member type='way' ref='24335490' role='from' />
+    <member type='node' ref='260193612' role='via' />
+    <member type='way' ref='88463830' role='to' />
+    <tag k='name' v='No U-Turn on Embarcadero Southbound at Folsom' />
+    <tag k='note' v='Done as no_left_turn because of dual carraigeway.' />
+    <tag k='restriction' v='no_left_turn' />
+    <tag k='type' v='restriction' />
+  </relation>
+  <relation id='1309488' timestamp='2010-12-08T03:13:18Z' uid='116029' user='Gregory Arenius' visible='true' version='1' changeset='6581846'>
+    <member type='way' ref='8922263' role='from' />
+    <member type='node' ref='65363148' role='via' />
+    <member type='way' ref='8921065' role='to' />
+    <tag k='name' v='No Left from Embarcadero Northbound to Mission' />
+    <tag k='restriction' v='no_left_turn' />
+    <tag k='type' v='restriction' />
+  </relation>
+  <relation id='1309489' timestamp='2011-12-27T20:19:03Z' uid='103253' user='gormur' visible='true' version='2' changeset='10219526'>
+    <member type='way' ref='24335489' role='from' />
+    <member type='node' ref='258965613' role='via' />
+    <member type='way' ref='30831808' role='to' />
+    <tag k='name' v='No U-Turn on Embarcadero Southbound at Mission' />
+    <tag k='note' v='Done as no_left_turn because of dual carraigeway.' />
+    <tag k='restriction' v='no_left_turn' />
+    <tag k='type' v='restriction' />
+  </relation>
+  <relation id='1309491' timestamp='2010-12-08T03:33:50Z' uid='116029' user='Gregory Arenius' visible='true' version='1' changeset='6581886'>
+    <member type='way' ref='88463829' role='from' />
+    <member type='node' ref='260193613' role='via' />
+    <member type='way' ref='8917425' role='to' />
+    <tag k='name' v='No Left from Embarcadero Southbound at Harrison' />
+    <tag k='restriction' v='no_left_turn' />
+    <tag k='type' v='restriction' />
+  </relation>
+  <relation id='1309492' timestamp='2014-01-04T23:40:42Z' uid='119881' user='Clorox' visible='true' version='2' changeset='19815429'>
+    <member type='node' ref='65317703' role='via' />
+    <member type='way' ref='8917425' role='to' />
+    <member type='way' ref='255330056' role='from' />
+    <tag k='name' v='No Left from Embarcadero Northbound to Harrison' />
+    <tag k='restriction' v='no_left_turn' />
+    <tag k='type' v='restriction' />
+  </relation>
+  <relation id='1310017' timestamp='2010-12-08T19:59:57Z' uid='116029' user='Gregory Arenius' visible='true' version='1' changeset='6588794'>
+    <member type='way' ref='88559661' role='from' />
+    <member type='node' ref='65317045' role='via' />
+    <member type='way' ref='35675861' role='to' />
+    <tag k='name' v='No Right from 2nd St to Harrison after turnout' />
+    <tag k='restriction' v='no_right_turn' />
+    <tag k='type' v='restriction' />
+  </relation>
+  <relation id='1310018' timestamp='2010-12-08T23:00:06Z' uid='116029' user='Gregory Arenius' visible='true' version='2' changeset='6590676'>
+    <member type='way' ref='88559669' role='from' />
+    <member type='node' ref='65317030' role='via' />
+    <member type='way' ref='88597577' role='to' />
+    <tag k='except' v='taxi;muni' />
+    <tag k='name' v='No Left from Mission Eastbound to Second' />
+    <tag k='restriction' v='no_left_turn' />
+    <tag k='type' v='restriction' />
+  </relation>
+  <relation id='1310019' timestamp='2010-12-08T19:59:58Z' uid='116029' user='Gregory Arenius' visible='true' version='1' changeset='6588794'>
+    <member type='node' ref='65290211' role='via' />
+    <member type='way' ref='88559650' role='to' />
+    <member type='way' ref='88559661' role='from' />
+    <tag k='day_off' v='Saturday' />
+    <tag k='day_on' v='Monday' />
+    <tag k='hour_off' v='19:00' />
+    <tag k='hour_on' v='15:30' />
+    <tag k='name' v='No Left from 2nd St Southbound to Bryant during rush hour' />
+    <tag k='restriction' v='no_left_turn' />
+    <tag k='type' v='restriction' />
+  </relation>
+  <relation id='1310020' timestamp='2010-12-08T21:16:15Z' uid='116029' user='Gregory Arenius' visible='true' version='2' changeset='6589460'>
+    <member type='node' ref='65317030' role='via' />
+    <member type='way' ref='88559691' role='to' />
+    <member type='way' ref='88572877' role='from' />
+    <tag k='name' v='No Left from Mission Westbound to 2nd Street' />
+    <tag k='restriction' v='no_left_turn' />
+    <tag k='type' v='restriction' />
+  </relation>
+  <relation id='1310149' timestamp='2010-12-23T02:18:17Z' uid='28775' user='StellanL' visible='true' version='2' changeset='6741887'>
+    <member type='way' ref='88572970' role='from' />
+    <member type='node' ref='65334510' role='via' />
+    <member type='way' ref='88572905' role='to' />
+    <tag k='except' v='taxi;muni' />
+    <tag k='name' v='No Left from Mission Westbound to 1st' />
+    <tag k='restriction' v='no_left_turn' />
+    <tag k='type' v='restriction' />
+  </relation>
+  <relation id='1310154' timestamp='2010-12-08T21:15:39Z' uid='116029' user='Gregory Arenius' visible='true' version='1' changeset='6589460'>
+    <member type='way' ref='88572970' role='from' />
+    <member type='node' ref='65363153' role='via' />
+    <member type='way' ref='88572881' role='to' />
+    <tag k='except' v='taxi;muni' />
+    <tag k='name' v='No Left from Mission to Fremont' />
+    <tag k='restriction' v='no_left_turn' />
+    <tag k='type' v='restriction' />
+  </relation>
+  <relation id='1310161' timestamp='2010-12-08T21:15:41Z' uid='116029' user='Gregory Arenius' visible='true' version='1' changeset='6589460'>
+    <member type='way' ref='88559669' role='from' />
+    <member type='node' ref='65329980' role='via' />
+    <member type='way' ref='88572948' role='to' />
+    <tag k='name' v='No Left from Mission Westbound to New Montgomery' />
+    <tag k='restriction' v='no_left_turn' />
+    <tag k='type' v='restriction' />
+  </relation>
+  <relation id='1310373' timestamp='2013-06-14T18:57:38Z' uid='1291871' user='Squirrel1982' visible='true' version='6' changeset='16554491'>
+    <member type='way' ref='91181774' role='from' />
+    <member type='node' ref='1723739123' role='via' />
+    <member type='way' ref='204884378' role='to' />
+    <tag k='name' v='No Right from Bush to Market after turnout' />
+    <tag k='restriction' v='no_right_turn' />
+    <tag k='type' v='restriction' />
+  </relation>
+  <relation id='1310376' timestamp='2013-06-04T16:40:17Z' uid='67236' user='jfire' visible='true' version='5' changeset='16421782'>
+    <member type='node' ref='1723738893' role='via' />
+    <member type='way' ref='8918656' role='to' />
+    <member type='way' ref='224384019' role='from' />
+    <tag k='name' v='No Left from Market Westbound to New Montgomery' />
+    <tag k='restriction' v='no_left_turn' />
+    <tag k='type' v='restriction' />
+  </relation>
+  <relation id='1310378' timestamp='2014-02-04T20:01:21Z' uid='153669' user='dchiles' visible='true' version='7' changeset='20379446'>
+    <member type='way' ref='88597544' role='to' />
+    <member type='way' ref='228196396' role='from' />
+    <member type='node' ref='1723738990' role='via' />
+    <tag k='name' v='No Right from Market Westbound to Kearny after turnout' />
+    <tag k='restriction' v='no_right_turn' />
+    <tag k='type' v='restriction' />
+  </relation>
+  <relation id='1421315' timestamp='2013-01-22T21:53:16Z' uid='153669' user='dchiles' visible='true' version='2' changeset='14751236'>
+    <member type='way' ref='99231482' role='from' />
+    <member type='node' ref='65308416' role='via' />
+    <member type='way' ref='99231486' role='to' />
+    <tag k='except' v='psv' />
+    <tag k='name' v='No Turns from Folsom Westbound to Beale' />
+    <tag k='restriction' v='only_straight_on' />
+    <tag k='type' v='restriction' />
+  </relation>
+  <relation id='1421316' timestamp='2011-02-11T19:51:44Z' uid='116029' user='Gregory Arenius' visible='true' version='1' changeset='7258457'>
+    <member type='way' ref='27397692' role='from' />
+    <member type='node' ref='65317709' role='via' />
+    <member type='way' ref='88466055' role='to' />
+    <tag k='day_off' v='Saturday' />
+    <tag k='day_on' v='Monday' />
+    <tag k='hour_off' v='19:00' />
+    <tag k='hour_on' v='15:00' />
+    <tag k='name' v='No Left from Main Southbound to Harrison during rush hour' />
+    <tag k='restriction' v='no_left_turn' />
+    <tag k='type' v='restriction' />
+  </relation>
+  <relation id='1421317' timestamp='2013-01-22T21:53:16Z' uid='153669' user='dchiles' visible='true' version='2' changeset='14751236'>
+    <member type='way' ref='27398032' role='from' />
+    <member type='node' ref='65308416' role='via' />
+    <member type='way' ref='99231482' role='to' />
+    <tag k='name' v='Must Turn Right on Beale Northbound at Folsom' />
+    <tag k='restriction' v='only_right_turn' />
+    <tag k='type' v='restriction' />
+  </relation>
+  <relation id='1421318' timestamp='2011-02-11T19:51:44Z' uid='116029' user='Gregory Arenius' visible='true' version='1' changeset='7258457'>
+    <member type='way' ref='99231460' role='from' />
+    <member type='node' ref='65317521' role='via' />
+    <member type='way' ref='24657731' role='to' />
+    <tag k='except' v='psv' />
+    <tag k='name' v='Must Turn Right on Folsom Westbound at Fremont' />
+    <tag k='restriction' v='only_right_turn' />
+    <tag k='type' v='restriction' />
+  </relation>
+  <relation id='1421319' timestamp='2013-06-12T15:26:47Z' uid='67236' user='jfire' visible='true' version='2' changeset='16525376'>
+    <member type='way' ref='8918460' role='from' />
+    <member type='node' ref='65306787' role='via' />
+    <member type='way' ref='99231475' role='to' />
+    <tag k='except' v='psv' />
+    <tag k='name' v='No Left from Main Northbound to Mission' />
+    <tag k='restriction' v='no_left_turn' />
+    <tag k='type' v='restriction' />
+  </relation>
+  <relation id='1421320' timestamp='2011-02-11T19:51:45Z' uid='116029' user='Gregory Arenius' visible='true' version='1' changeset='7258457'>
+    <member type='way' ref='8919180' role='from' />
+    <member type='node' ref='65317519' role='via' />
+    <member type='way' ref='99231460' role='to' />
+    <tag k='name' v='No Left from Zeno to Folsom' />
+    <tag k='restriction' v='no_left_turn' />
+    <tag k='type' v='restriction' />
+  </relation>
+  <relation id='1818791' timestamp='2012-09-03T06:37:43Z' uid='207745' user='NE2' visible='true' version='2' changeset='12963218'>
+    <member type='way' ref='8922029' role='from' />
+    <member type='way' ref='135110258' role='to' />
+    <member type='node' ref='65290207' role='via' />
+    <tag k='restriction' v='only_right_turn' />
+    <tag k='type' v='restriction' />
+  </relation>
+  <relation id='2994001' timestamp='2013-06-11T08:05:24Z' uid='142205' user='skobbler' visible='true' version='1' changeset='16506709'>
+    <member type='node' ref='1723738865' role='via' />
+    <member type='way' ref='160325571' role='from' />
+    <member type='way' ref='120256351' role='to' />
+    <tag k='restriction' v='no_left_turn' />
+    <tag k='type' v='restriction' />
+  </relation>
+  <relation id='2994085' timestamp='2013-06-13T12:15:22Z' uid='142205' user='skobbler' visible='true' version='3' changeset='16536985'>
+    <member type='node' ref='1723739266' role='via' />
+    <member type='way' ref='224373753' role='from' />
+    <member type='way' ref='88597563' role='to' />
+    <tag k='restriction' v='no_left_turn' />
+    <tag k='type' v='restriction' />
+  </relation>
+  <relation id='2994127' timestamp='2014-02-04T20:01:21Z' uid='153669' user='dchiles' visible='true' version='3' changeset='20379446'>
+    <member type='node' ref='1723739123' role='via' />
+    <member type='way' ref='228186482' role='from' />
+    <member type='way' ref='8919020' role='to' />
+    <tag k='restriction' v='no_left_turn' />
+    <tag k='type' v='restriction' />
+  </relation>
+  <relation id='2994194' timestamp='2013-06-11T11:00:32Z' uid='142205' user='skobbler' visible='true' version='1' changeset='16508555'>
+    <member type='node' ref='1723739241' role='via' />
+    <member type='way' ref='224200967' role='from' />
+    <member type='way' ref='133755922' role='to' />
+    <tag k='restriction' v='no_left_turn' />
+    <tag k='type' v='restriction' />
+  </relation>
+  <relation id='2994200' timestamp='2013-06-11T11:11:27Z' uid='142205' user='skobbler' visible='true' version='1' changeset='16508681'>
+    <member type='node' ref='1723739244' role='via' />
+    <member type='way' ref='224384018' role='from' />
+    <member type='way' ref='88597577' role='to' />
+    <tag k='restriction' v='no_left_turn' />
+    <tag k='type' v='restriction' />
+  </relation>
+  <relation id='2994204' timestamp='2013-06-11T11:17:10Z' uid='142205' user='skobbler' visible='true' version='1' changeset='16508737'>
+    <member type='node' ref='1723739244' role='via' />
+    <member type='way' ref='88597577' role='from' />
+    <member type='way' ref='224384019' role='to' />
+    <tag k='restriction' v='no_left_turn' />
+    <tag k='type' v='restriction' />
+  </relation>
+  <relation id='2997420' timestamp='2013-12-30T05:35:11Z' uid='119881' user='Clorox' visible='true' version='2' changeset='19709022'>
+    <member type='node' ref='65303525' role='via' />
+    <member type='way' ref='8920734' role='from' />
+    <member type='way' ref='133733593' role='to' />
+    <tag k='restriction' v='only_right_turn' />
+    <tag k='type' v='restriction' />
+  </relation>
+  <relation id='2997424' timestamp='2013-06-13T13:18:15Z' uid='142205' user='skobbler' visible='true' version='1' changeset='16537603'>
+    <member type='node' ref='65303525' role='via' />
+    <member type='way' ref='133755922' role='from' />
+    <member type='way' ref='224384027' role='to' />
+    <tag k='restriction' v='no_left_turn' />
+    <tag k='type' v='restriction' />
+  </relation>
+  <relation id='2997468' timestamp='2014-02-04T20:01:21Z' uid='153669' user='dchiles' visible='true' version='3' changeset='20379446'>
+    <member type='node' ref='1723738990' role='via' />
+    <member type='way' ref='204884397' role='from' />
+    <member type='way' ref='228196396' role='to' />
+    <tag k='restriction' v='only_straight_on' />
+    <tag k='type' v='restriction' />
+  </relation>
+  <relation id='2999191' timestamp='2013-06-14T18:22:51Z' uid='1291871' user='Squirrel1982' visible='true' version='2' changeset='16553985'>
+    <member type='way' ref='133755922' role='to' />
+    <member type='way' ref='224200967' role='from' />
+    <member type='node' ref='1723739241' role='via' />
+    <tag k='restriction' v='no_left_turn' />
+    <tag k='type' v='restriction' />
+  </relation>
+  <relation id='3048463' timestamp='2013-07-01T09:01:01Z' uid='142205' user='skobbler' visible='true' version='1' changeset='16774698'>
+    <member type='node' ref='1723738831' role='via' />
+    <member type='way' ref='88572881' role='from' />
+    <member type='way' ref='228186482' role='to' />
+    <tag k='restriction' v='no_left_turn' />
+    <tag k='type' v='restriction' />
+  </relation>
+  <relation id='3048474' timestamp='2013-07-01T09:16:09Z' uid='142205' user='skobbler' visible='true' version='1' changeset='16774698'>
+    <member type='node' ref='1723739359' role='via' />
+    <member type='way' ref='91181773' role='from' />
+    <member type='way' ref='225719777' role='to' />
+    <tag k='restriction' v='only_right_turn' />
+    <tag k='type' v='restriction' />
+  </relation>
+  <relation id='3048532' timestamp='2013-07-01T10:17:17Z' uid='142205' user='skobbler' visible='true' version='1' changeset='16775513'>
+    <member type='node' ref='1723739121' role='via' />
+    <member type='way' ref='228196396' role='from' />
+    <member type='way' ref='144489134' role='to' />
+    <tag k='restriction' v='no_left_turn' />
+    <tag k='type' v='restriction' />
+  </relation>
+</osm>
