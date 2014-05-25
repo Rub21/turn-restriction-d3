@@ -32,14 +32,18 @@
         fill: lightsteelblue;
         stroke-width: 0;
     }
+    .area2 {
+        fill: #bbdddd;
+        stroke-width: 0;
+    }
 </style>
 <body>
     <script src="http://d3js.org/d3.v3.min.js"></script>
 
     <script>
-        var margin = {top: 30, right: 20, bottom: 30, left: 50};
+        var margin = {top: 30, right: 70, bottom: 30, left: 50};
         var width = 1200 - margin.left - margin.right;
-        var height = 800 - margin.top - margin.bottom;
+        var height = 500 - margin.top - margin.bottom;
 
         var parseDate = d3.time.format("%m-%Y").parse;
 
@@ -53,11 +57,11 @@
                 .ticks(5);
 
         var yAxis = d3.svg.axis().scale(y)
-                .orient("left")
-                .ticks(5);
+                .orient("right")//posicion par al lado derecho del label de axis y
+                .ticks(10);
 
         var area = d3.svg.area()//agregar area
-                .interpolate("basis")
+                //.interpolate("basis")
                 .x(function(d) {
                     return x(d.date);
                 })
@@ -66,9 +70,18 @@
                     return y(d.v1);
                 });
 
+        var area2 = d3.svg.area()//agregar area2 para version >1
+                //.interpolate("basis")
+                .x(function(d) {
+                    return x(d.date);
+                })
+                .y0(height)
+                .y1(function(d) {
+                    return y(d.vx);
+                });
 
         var valueline = d3.svg.line() //para version 1
-                .interpolate("basis") //para suavisar las lineas=, bundle, step-before, basis-closed, step-after
+                //.interpolate("basis") //para suavisar las lineas=, bundle, step-before, basis-closed, step-after
                 .x(function(d) {
                     return x(d.date);
                 })
@@ -78,7 +91,7 @@
 
 
         var valueline2 = d3.svg.line() //para version >1
-                .interpolate("basis")
+                //.interpolate("basis")
                 .x(function(d) {
                     return x(d.date);
                 })
@@ -131,6 +144,12 @@
                     .attr("class", "area")
                     .attr("d", area);
 
+            svg.append("path") //agregamos area al grafico de linea de v>1 con area2
+                    .datum(data)
+                    .attr("class", "area2")
+                    .attr("d", area2);
+
+
             svg.append("path")
                     .attr("class", "line")
                     // .style("stroke-dasharray", ("3, 3")) // agrega interlineado en la linea
@@ -139,13 +158,13 @@
 
             svg.append("path")          // Add the valueline2 path.
                     .attr("class", "line")
-                    .style("stroke", "red")
+                    .style("stroke", "#55aaaa")
                     .attr("d", valueline2(data));
 
 
             svg.append("g")			// Add the X Axis
                     .attr("class", "x axis")
-                    .attr("transform", "translate(0," + height + ")")
+                    .attr("transform", "translate(0," + height + ")") //esto es para pasa el y axis al lado derecho, por defecot se ubica en el lado izquiero
                     .call(xAxis);
 
 
@@ -158,15 +177,19 @@
 
             svg.append("g")			// Add the Y Axis
                     .attr("class", "y axis")
+                    .attr("transform", "translate(" + width + ",0)")
                     .call(yAxis);
 
             svg.append("text")                  // Add text label for y axis
                     .attr("transform", "rotate(-90)")
-                    .attr("y", 0 - margin.left)
+                    //.attr("y", 0 - margin.left)
+                    .attr("y", width + margin.right - 30)
+
+                    // .attr("x", 0 - (height / 2))
                     .attr("x", 0 - (height / 2))
                     .attr("dy", "1em")
                     .style("text-anchor", "middle")
-                    .text("Added and Edits");
+                    .text("Number Addeds and Edits");
 
 
             svg.append("text")                  //Add title of Graph
@@ -198,7 +221,9 @@
 
             svg.append("text")
                     .attr("transform", function() {
-                        return "translate(" + (width - 10) + "," + y(data[data.length-1].v1 -5) + ")";//regresa el utimo elemeto
+                        // return "translate(" + (width - 10) + "," + y(data[data.length - 1].v1 - 5) + ")";//regresa el utimo elemento
+                        return "translate(" + (0 - margin.left + 20) + "," + y(data[0].v1) + ")";//regresa el primer  elemeto
+
                     })
                     .attr("dy", ".35em")
                     .attr("text-anchor", "start")
@@ -206,10 +231,10 @@
                     .text("v = 1");
 
             svg.append("text")
-                    .attr("transform", "translate(" + (width - 10) + "," + y(data[data.length-1].vx-5) + ")")
+                    .attr("transform", "translate(" + (0 - margin.left + 20) + "," + y(data[0].vx) + ")")//regresa el utimo elemeto
                     .attr("dy", ".35em")
                     .attr("text-anchor", "start")
-                    .style("fill", "red")
+                    .style("fill", "#55aaaa")
                     .text("v > 1");
         });
 
