@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+</style>
+<body>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+
+    <script>
+        var holder = d3.select("body") // select the 'body' element
+                .append("svg")           // append an SVG element to the body
+                .attr("width", 1200)      // make the SVG element 449 pixels wide
+                .attr("height", 1200);    // make the SVG element 249 pixels high
+        // set the radius
+        holder.append("ellipse")       // attach an ellipse
+                .attr("cx", 200)           // position the x-centre
+                .attr("cy", 100)           // position the y-centre
+                .attr("rx", 100)           // set the x radius
+                .attr("ry", 50);           // set the y radius
+// draw a circle
+        //  holder.append("circle")        // attach a circle
+        //         .attr("cx", 200)           // position the x-center
+        //          .attr("cy", 100)           // position the y-center
+        //    .attr("r", 50)
+        //      .style("fill", "#55aaaa");
+
+
+        holder.append("circle")        // attach a circle
+                .attr("cx", 700)           // position the x-centre
+                .attr("cy", 700)           // position the y-centre
+                .attr("r", 50)             // set the radius
+                .style("opacity", .2)      // set the element opacity
+                .style("stroke", "red")    // set the line colour
+                .style("fill", "green");   // set the fill colour
+
+
+        holder.append("rect")       // attach a rectangle
+                .attr("x", 300)         // position the left of the rectangle
+                .attr("y", 150)          // position the top of the rectangle
+                .attr("height", 100)    // set the height
+                .attr("width", 200)     // set the width
+                .attr("rx", 10)         // set the x corner curve radius
+                .attr("ry", 10);        // set the y corner curve radius
+
+
+        holder.append("line")          // attach a line
+                .style("stroke", "black")  // colour the line
+                .attr("x1", 500)     // x position of the first end of the line
+                .attr("y1", 700)      // y position of the first end of the line
+                .attr("x2", 2)     // x position of the second end of the line
+                .attr("y2", 50);
+
+
+        holder.append("polyline")      // attach a polyline
+                .style("stroke", "black")  // colour the line
+                .style("fill", "none")     // remove any fill colour
+                .attr("points", "100,50, 200,150, 300,50");  // x,y points
+
+        holder.append("polygon")       // attach a polygon
+                .style("stroke", "black")  // colour the line
+                .style("fill", "none")     // remove any fill colour
+                .style("stroke-width", 20)  // colour the line
+                .style("stroke-linejoin", "round")  // shape the line join
+                .style("stroke", "#567832")
+                .attr("points", "100,50, 200,150, 300,50");  // x,y points 
+
+        holder.append("text")         // append text
+                .style("fill", "black")   // fill the text with the colour black
+                .attr("x", 200)           // set x position of left side of text
+                .attr("y", 100)           // set y position of bottom of text
+                .attr("text-anchor", "middle") // set anchor y justification 
+                .text("Hello World");          // define the text to display
+
+        holder.append("text")         // append text
+                .style("fill", "black")   // fill the text with the colour black
+                .attr("x", 200)           // set x position of left side of text
+                .attr("y", 50)            // set y position of bottom of text
+                .attr("text-anchor", "start") // set anchor y justification
+                .text("Hello World - start"); // define the text to display
+
+        holder.append("text")         // append text
+                .style("fill", "black")   // fill the text with the colour black
+                .attr("x", 200)           // set x position of left side of text
+                .attr("y", 100)           // set y position of bottom of text
+                .attr("text-anchor", "middle") // set anchor y justification
+                .style("glyph-orientation-vertical", 0)
+                .text("Hello World - middle"); // define the text to display
+
+        holder.append("text")         // append text
+                .style("fill", "black")   // fill the text with the colour black
+                .attr("x", 200)           // set x position of left side of text
+                .attr("y", 150)           // set y position of bottom of text
+                .attr("text-anchor", "end") // set anchor y justification
+                .text("Hello World - end"); // define the text to display
+    </script>
+</body>
