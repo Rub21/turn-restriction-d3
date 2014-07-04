@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+    body { font: 12px Arial;}
+
+    path { 
+        //  stroke: red;
+        stroke: steelblue;
+        stroke-width: 2;
+        //fill: yess;
+        fill:none;
+    }
+
+    .axis path
+    {
+        fill: none;
+        stroke: #000000;
+        stroke-width:2;
+        shape-rendering: crispEdges;
+    }
+    .axis line {
+        fill: none;
+        //stroke: grey;
+        stroke-width:0.5;
+        shape-rendering: crispEdges;
+    }
+
+    //CSS para hacer grid 
+    .grid .tick {
+        stroke: lightgrey;
+        opacity: 0.7;
+    }
+    .grid path {
+        stroke-width: 0;
+    }
+
+    .area {
+        fill: lightsteelblue;
+        stroke-width: 0;
+    }
+    .area2 {
+        fill: #bbdddd;
+        stroke-width: 0;
+    }
+
+
+    div.tooltip {	
+        position: absolute;			
+        text-align: center;			
+        width: 90px;					
+        height: 28px;					
+        padding: 5px;				
+        font: 12px sans-serif;		
+        background: lightsteelblue;	
+        border: 0px;		
+        border-radius: 8px;			
+        pointer-events: none;	
+        border-style:solid;
+        border-width:1px;
+        border-color: #696969;
+
+    }
+
+</style>
+<body>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+
+    <script>
+        var margin = {top: 30, right: 70, bottom: 30, left: 50};
+        var width = 1200 - margin.left - margin.right;
+        var height = 500 - margin.top - margin.bottom;
+
+        var parseDate = d3.time.format("%Y-%m").parse;
+
+        //format para toltip
+        var formatTime = d3.time.format("%B %Y");
+
+
+        var x = d3.time.scale()
+                .range([0, width]);
+
+        var y = d3.scale.linear()
+                .range([height, 0]);
+
+        var xAxis = d3.svg.axis().scale(x)
+                .orient("bottom")
+                .ticks(5);
+
+        var yAxis = d3.svg.axis().scale(y)
+                .orient("right")//posicion par al lado derecho del label de axis y
+                .ticks(10);
+
+        var area = d3.svg.area()//agregar area
+                //.interpolate("basis")
+                .x(function(d) {
+                    return x(d.date);
+                })
+                .y0(height)
+                .y1(function(d) {
+                    return y(d.open);
+                });
+
+        var area2 = d3.svg.area()//agregar area2 para version >1
+                //.interpolate("basis")
+                .x(function(d) {
+                    return x(d.date);
+                })
+                .y0(height)
+                .y1(function(d) {
+                    return y(d.closed);
+                });
+
+        var valueline = d3.svg.line() //para version 1
+                //.interpolate("basis") //para suavisar las lineas=, bundle, step-before, basis-closed, step-after
+                .x(function(d) {
+                    return x(d.date);
+                })
+                .y(function(d) {
+                    return y(d.open);
+                });
+
+
+        var valueline2 = d3.svg.line() //para version >1
+                //.interpolate("basis")
+                .x(function(d) {
+                    return x(d.date);
+                })
+                .y(function(d) {
+                    return y(d.closed);
+                });
+
+        var svg = d3.select("body")
+                .append("svg")
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom)
+                .append("g")
+                .attr("transform",
+                        "translate(" + margin.left + "," + margin.top + ")");
+
+        var div = d3.select("body").append("div")///agregamos DIV para el toltip
+                .attr("class", "tooltip")
+                .style("opacity", 0);
+
+
+        d3.csv("data.csv", function(error, data) {
+            data.forEach(function(d) {
+                d.date = parseDate(d.date);
+                d.open = +d.open;
+                d.closed = +d.closed;
+            });
+
+            // Scale the range of the data
+            x.domain(d3.extent(data, function(d) {// extent retorna el minimo y maximo simultaneamente es como to calling d3.min and d3.max simultaneously.
+                return d.date;
+            }));
+
+            //y.domain([0, d3.max(data, function(d) { return d.open; })]); cuando solo usamos 1 grafico
+
+            y.domain([0, d3.max(data, function(d) {//cuando uasmo mas de un grafico de varios niveles en el eje y
+                    return Math.max(d.open, d.closed);
+                })]);
+
+            svg.append("path") //agregamos area al grafico de linea
+                    .datum(data)
+                    .attr("class", "area")
+                    .attr("d", area);
+
+            svg.append("path") //agregamos area al grafico de linea de v>1 con area2
+                    .datum(data)
+                    .attr("class", "area2")
+                    .attr("d", area2);
+
+            svg.append("path")
+                    .attr("class", "line")
+                    .style("stroke-width", 1)
+                    // .style("stroke-dasharray", ("3, 3")) // agrega interlineado en la linea
+                    .attr("d", valueline(data));
+
+
+            svg.append("path")          // Add the valueline2 path.
+                    .attr("class", "line")
+                    .style("stroke", "#55aaaa")
+                    .style("stroke-width", 1)
+                    .attr("d", valueline2(data));
+
+
+            svg.append("g")			// Add the X Axis
+                    .attr("class", "x axis")
+                    .attr("transform", "translate(0," + height + ")") //esto es para pasa el y axis al lado derecho, por defecot se ubica en el lado izquiero
+                    .call(xAxis);
+
+
+            svg.append("text")                // text label for the x axis
+                    .attr("x", width / 2)
+                    .attr("y", height + margin.bottom)
+                    .style("text-anchor", "middle")
+                    .text("Date");
+
+
+            svg.append("g")			// Add the Y Axis
+                    .attr("class", "y axis")
+                    .attr("transform", "translate(" + width + ",0)")
+                    .call(yAxis);
+
+            svg.append("text")                  // Add text label for y axis
+                    .attr("transform", "rotate(-90)")
+                    //.attr("y", 0 - margin.left)
+                    .attr("y", width + margin.right - 30)
+
+                    // .attr("x", 0 - (height / 2))
+                    .attr("x", 0 - (height / 2))
+                    .attr("dy", "1em")
+                    .style("text-anchor", "middle")
+                    .text("Number Addeds and Edits");
+
+
+            svg.append("text")                  //Add title of Graph
+                    .attr("x", (width / 2))
+                    .attr("y", 0 - (margin.top / 2) + 15)
+                    .attr("text-anchor", "middle")
+                    .style("font-size", "24px")
+                    //.style("text-decoration", "underline")
+                    .text("Turn Restriction Editing, in US by month");
+            svg.append("text")
+                    .attr("transform", function() {
+                        // return "translate(" + (width - 10) + "," + y(data[data.length - 1].open - 5) + ")";//regresa el utimo elemento
+                        return "translate(" + (0 - margin.left + 20) + "," + y(data[0].open) + ")";//regresa el primer  elemeto
+
+                    })
+                    .attr("dy", ".35em")
+                    .attr("text-anchor", "start")
+                    .style("fill", "steelblue")
+                    .style("font-weight", "bold")
+                    .text("v = 1");
+
+            svg.append("text")
+                    .attr("transform", "translate(" + (0 - margin.left + 20) + "," + y(data[0].closed) + ")")//regresa el utimo elemeto
+                    .attr("dy", ".35em")
+                    .attr("text-anchor", "start")
+                    .style("fill", "#55aaaa")
+                    .style("font-weight", "bold")
+                    .text("v > 1");
+
+
+
+
+            svg.selectAll("dot")//agregando puntitos para datos de version =1
+                    .data(data)
+                    .enter()
+                    .append("circle")
+                    .attr("r", 1.5)
+                    .attr("cx", function(d) {
+                        return x(d.date);
+                    })
+                    .attr("cy", function(d) {
+                        return y(d.open);
+                    })
+                    .style("fill", "SteelBlue");
+
+
+            svg.selectAll("dot2")//agregando puntitos para datos de version >1
+                    .data(data)
+                    .enter()
+                    .append("circle")
+                    .attr("r", 1.5)
+                    .attr("cx", function(d) {
+                        return x(d.date);
+                    })
+                    .attr("cy", function(d) {
+                        return y(d.closed);
+                    })
+                    .style("fill", "#55aaaa");
+
+            svg.selectAll("dot")//insertar los toltip en el grafico para version 1
+                    .data(data)
+                    .enter().append("circle")
+                    .attr("r", 5)
+                    .attr("cx", function(d) {
+                        return x(d.date);
+                    })
+                    .attr("cy", function(d) {
+                        return y(d.open);
+                    })
+
+                    .style("fill", "SteelBlue")
+                    .style("opacity", 0)
+                    .on("mouseover", function(d) {
+                        div.transition()
+                                .duration(200)
+                                .style("opacity", .9);
+                        div.html(formatTime(d.date) + "<br/><strong>Num : " + d.open + "</strong>")
+                                .style("left", (d3.event.pageX) + "px")
+                                .style("top", (d3.event.pageY - 28) + "px");
+                    })
+                    .on("mouseout", function(d) {
+                        div.transition()
+                                .duration(500)
+                                .style("opacity", 0);
+                    });
+
+            svg.selectAll("dot2")//insertar los toltip en el grafico para version >1
+                    .data(data)
+                    .enter().append("circle")
+                    .attr("r", 3)
+                    .attr("cx", function(d) {
+                        return x(d.date);
+                    })
+                    .attr("cy", function(d) {
+                        return y(d.closed);
+                    })
+                    .style("fill", "#55aaaa")
+                    .style("opacity", 0)
+                    .on("mouseover", function(d) {
+                        div.transition()
+                                .duration(200)
+                                .style("opacity", .9);
+                        div.html(formatTime(d.date) + "<br/><strong>Num : " + d.open + "</strong>")
+                                .style("left", (d3.event.pageX) + "px")
+                                .style("top", (d3.event.pageY - 28) + "px");
+                    })
+                    .on("mouseout", function(d) {
+                        div.transition()
+                                .duration(500)
+                                .style("opacity", 0);
+                    });
+
+        });
+
+
+
+
+
+
+
+    </script>
+</body>

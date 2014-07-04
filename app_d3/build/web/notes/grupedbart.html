@@ -23,29 +23,21 @@
 
 </style>
 <body>
-    <h1>Turn Restriction Editing, in US by month</h1>
     <script src="http://d3js.org/d3.v3.min.js"></script>
     <script>
 
-        var margin = {top: 20, right: 20, bottom: 60, left: 40},
+        var margin = {top: 50, right: 20, bottom: 30, left: 40},
         width = 1200 - margin.left - margin.right,
                 height = 500 - margin.top - margin.bottom;
 
         var x0 = d3.scale.ordinal()
-                .rangeRoundBands([0, width], .3);
+                .rangeRoundBands([0, width], .1);
 
         var x1 = d3.scale.ordinal();
 
-        var y = d3.scale.linear()
-                .range([height, 0]);
-        /*
-         var yText = function(d, i) {
-         return y(d, i) + yScale.rangeBand() / 2;
-         };
-         
-         */
-        var color = d3.scale.ordinal()
-                .range(["#58ACFA", "#FFFF33", ]);
+        var y = d3.scale.linear().range([height, 0]);
+
+        var color = d3.scale.ordinal().range(["#377EB8", "#4DAF4A"]);
 
         var xAxis = d3.svg.axis()
                 .scale(x0)
@@ -53,8 +45,8 @@
 
         var yAxis = d3.svg.axis()
                 .scale(y)
-                .orient("left")
-                .tickFormat(d3.format(".2s"));
+                .orient("left");
+        //.tickFormat(d3.format(".2s"));
 
         var svg = d3.select("body").append("svg")
                 .attr("width", width + margin.left + margin.right)
@@ -62,13 +54,13 @@
                 .append("g")
                 .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-        d3.csv("data.csv", function(error, data) {
-            var ageNames = d3.keys(data[0]).filter(function(key) {
+        d3.csv("gruped.csv", function(error, data) {
+            var status = d3.keys(data[0]).filter(function(key) {
                 return key !== "date";
             });
 
             data.forEach(function(d) {
-                d.ages = ageNames.map(function(name) {
+                d.notes = status.map(function(name) {
                     return {name: name, value: +d[name]};
                 });
             });
@@ -76,30 +68,18 @@
             x0.domain(data.map(function(d) {
                 return d.date;
             }));
-            x1.domain(ageNames).rangeRoundBands([0, x0.rangeBand()]);
+            x1.domain(status).rangeRoundBands([0, x0.rangeBand()]);
             y.domain([0, d3.max(data, function(d) {
-                    return d3.max(d.ages, function(d) {
+                    return d3.max(d.notes, function(d) {
                         return d.value;
                     });
                 })]);
 
-            /* svg.append("g")
-             .attr("class", "x axis")
-             .attr("transform", "translate(0," + height + ")")
-             .call(xAxizs);
-             */
-
             svg.append("g")
                     .attr("class", "x axis")
                     .attr("transform", "translate(0," + height + ")")
-                    .call(xAxis)
-                    .selectAll("text")
-                    .style("text-anchor", "end")
-                    .attr("dx", "-.8em")
-                    .attr("dy", ".15em")
-                    .attr("transform", function(d) {
-                        return "rotate(-65)";
-                    });
+                    .call(xAxis);
+
             svg.append("g")
                     .attr("class", "y axis")
                     .call(yAxis)
@@ -108,23 +88,19 @@
                     .attr("y", 6)
                     .attr("dy", ".71em")
                     .style("text-anchor", "end")
-                    .text("Number of edits");
+                    .text("Num Notes");
 
-            /*Textos de los chart
-             
-             // bar labels
-             var labelsContainer = svg.append('g')
-             .attr('transform', 'translate(' + (20 - 2) + ',' + (40 + 10) + ')');
-             labelsContainer.selectAll('text').data(data).enter().append('text')
-             .attr('y', yText)
-             .attr('stroke', 'none')
-             .attr('fill', 'black')
-             .attr("dy", ".35em") // vertical-align: middle
-             .attr('text-anchor', 'end')
-             .text(barLabel);
-             */
 
-            var date = svg.selectAll(".date")
+            //title Graph
+            svg.append("text")                  //Add title of Graph
+                    .attr("x", (width / 2))
+                    .attr("y", 0 - (margin.top / 2) + 15)
+                    .attr("text-anchor", "middle")
+                    .style("font-size", "24px")
+                    //.style("text-decoration", "underline")
+                    .text("Status of Notes in OSM");
+
+            var state = svg.selectAll(".state")
                     .data(data)
                     .enter().append("g")
                     .attr("class", "g")
@@ -132,9 +108,9 @@
                         return "translate(" + x0(d.date) + ",0)";
                     });
 
-            date.selectAll("rect")
+            state.selectAll("rect")
                     .data(function(d) {
-                        return d.ages;
+                        return d.notes;
                     })
                     .enter().append("rect")
                     .attr("width", x1.rangeBand())
@@ -152,7 +128,7 @@
                     });
 
             var legend = svg.selectAll(".legend")
-                    .data(ageNames.slice().reverse())
+                    .data(status.slice().reverse())
                     .enter().append("g")
                     .attr("class", "legend")
                     .attr("transform", function(d, i) {
@@ -173,6 +149,10 @@
                     .text(function(d) {
                         return d;
                     });
+
+
+
+
         });
 
     </script>
